@@ -9,9 +9,9 @@ import {
   Button,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
-
-import ProfilePicture from "./profile_picture.jpeg";
 import { GitHub, LinkedIn, MailOutline } from "@material-ui/icons";
+
+import profilePicture from "./profile_picture.jpeg";
 
 const useStyles = makeStyles((theme) => ({
   profilePicture: {
@@ -39,9 +39,9 @@ const Sidebar = () => {
       <Grid item xs={6}>
         <Avatar
           alt="Picture of Ryan Schuerkamp"
-          variant="circle"
+          variant="circular"
           className={classes.profilePicture}
-          src={ProfilePicture}
+          src={profilePicture}
         />
         <Typography display="block" variant="h3">
           <Box fontWeight="fontWeightBold">Ryan Schuerkamp</Box>
@@ -56,7 +56,7 @@ const Sidebar = () => {
         <Typography style={{ marginBottom: 20 }} variant="body1">
           Hi, I’m Ryan. I love solving challenging problems. I am a rising
           Sophomore at Miami University majoring in Computer Science, Data
-          Science and Statistics, and Mathematics. Currently, I am interning at
+          Science and Statistics, and Mathematics. Currently, I am interning at{" "}
           <Link href="https://joot.io/">Joot</Link> as a Software Engineer and
           researching applying machine learning to cybersecurity.
         </Typography>
@@ -78,6 +78,10 @@ const Sidebar = () => {
         <Link href="mailto:schuerr2@miamioh.edu">
           <MailOutline fontSize="inherit" className={classes.icons} />
         </Link>
+        <Typography style={{ marginTop: 50 }} variant="body2">
+          © Ryan Schuerkamp{" "}
+          <Link href="https://ryanschuerkamp.com">ryanschuerkamp.com</Link>
+        </Typography>
       </Grid>
       <Grid item xs={5} lg={3}></Grid>
     </Grid>

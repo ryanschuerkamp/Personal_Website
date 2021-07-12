@@ -13,7 +13,7 @@ const Background = () => {
       <Typography style={{ marginBottom: 10, marginTop: 10 }} variant="h3">
         Background
       </Typography>
-      <Grid container xs={12}>
+      <Grid container>
         <PictureCard
           title="From Minnesota"
           picture={priorLakePicture}

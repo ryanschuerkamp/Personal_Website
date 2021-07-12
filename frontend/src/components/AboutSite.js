@@ -1,10 +1,10 @@
 import React from "react";
-import { Grid, Typography, Paper } from "@material-ui/core";
+import { Grid, Typography } from "@material-ui/core";
 import Sidebar from "./sidebar/Sidebar";
 
 const AboutSite = () => {
   return (
-    <Grid container xs={12}>
+    <Grid container>
       <Grid item xs={false} sm={4}>
         <Sidebar />
       </Grid>

@@ -15,7 +15,7 @@ const Hobbies = () => {
       <Typography style={{ marginBottom: 10, marginTop: 10 }} variant="h3">
         Hobbies
       </Typography>
-      <Grid container xs={12}>
+      <Grid container>
         <PictureCard
           title="Working Out"
           picture={weightsPicture}

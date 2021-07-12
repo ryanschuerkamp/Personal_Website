@@ -21,7 +21,7 @@ export default function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <Grid container xs={12}>
+    <Grid container>
       <Paper>
         <BrowserRouter>
           <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>

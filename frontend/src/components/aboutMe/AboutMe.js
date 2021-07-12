@@ -2,6 +2,7 @@ import React from "react";
 import { Grid, Typography, Divider, Hidden } from "@material-ui/core";
 
 import Sidebar from "../sidebar/Sidebar";
+import Footer from "../footer/Footer";
 import Hobbies from "./Hobbies";
 import Background from "./Background";
 
@@ -15,8 +16,8 @@ const AboutMe = () => {
       </Hidden>
       <Grid item container xs={12} lg={8} direction="column">
         <Grid item container>
-          <Grid item xs={2} md={1} lg={false} />
-          <Grid item xs={10} md={11} lg={12}>
+          <Grid item xs={2} sm={3} md={1} lg={false} />
+          <Grid item xs={10} sm={9} md={11} lg={12}>
             <Typography variant="h1">About Me</Typography>
             <Divider />
             <Background />
@@ -24,6 +25,9 @@ const AboutMe = () => {
             <Hobbies />
           </Grid>
         </Grid>
+        <Hidden lgUp={true}>
+          <Footer />
+        </Hidden>
       </Grid>
     </Grid>
   );
