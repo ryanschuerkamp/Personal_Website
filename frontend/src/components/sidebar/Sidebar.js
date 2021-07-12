@@ -35,7 +35,7 @@ const Sidebar = () => {
   const classes = useStyles();
   return (
     <Grid container>
-      <Grid item xs={3}></Grid>
+      <Grid item xs={1} lg={3}></Grid>
       <Grid item xs={6}>
         <Avatar
           alt="Picture of Ryan Schuerkamp"
@@ -54,11 +54,11 @@ const Sidebar = () => {
           <Box fontWeight="fontWeightBold">About</Box>
         </Typography>
         <Typography style={{ marginBottom: 20 }} variant="body1">
-          Hi, I’m Ryan. I’m a rising Sophomore at Miami University majoring in
-          Computer Science, Data Science and Statistics, and Mathematics. I love
-          solving difficult problems. Currently, I’m interning at{" "}
-          <Link href="https://joot.io/">Joot</Link> and researching applying
-          machine learning to cybersecurity.
+          Hi, I’m Ryan. I love solving challenging problems. I am a rising
+          Sophomore at Miami University majoring in Computer Science, Data
+          Science and Statistics, and Mathematics. Currently, I am interning at
+          <Link href="https://joot.io/">Joot</Link> as a Software Engineer and
+          researching applying machine learning to cybersecurity.
         </Typography>
         <Button
           style={{ marginBottom: 35 }}
@@ -79,7 +79,7 @@ const Sidebar = () => {
           <MailOutline fontSize="inherit" className={classes.icons} />
         </Link>
       </Grid>
-      <Grid item xs={3}></Grid>
+      <Grid item xs={5} lg={3}></Grid>
     </Grid>
   );
 };

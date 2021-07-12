@@ -24,7 +24,7 @@ const Hobbies = () => {
         <PictureCard
           title="Cooking"
           picture={cookingPicture}
-          description="Initially, I wasn't the biggest fan of cooking, but now I love it. With practice and help from my family, I can now quickly cook healthy, delicious meals. At the moment, I am pretty good at grilling and cooking proteins. Over the rest of the summer, I want to learn how to cook more vegetables and carbs and make more complete meals."
+          description="Initially, I was not the biggest fan of cooking, but now I love it. With practice and help from my family, I can now quickly cook healthy, delicious meals. At the moment, I am pretty good at grilling and cooking proteins. Over the rest of the summer, I want to learn how to cook more vegetables and carbs and make more complete meals."
         />
         <PictureCard
           title="Coding"
@@ -34,17 +34,18 @@ const Hobbies = () => {
         <PictureCard
           title="Reading"
           picture={readingPicture}
-          description="Stoicism, behavioral economics, and psychology are just a few of the diverse subjects I have recently explored. Some of my favorite books are The Black Swan by Nassim Nicholas Taleb, Thinking, Fast and Slow by Daniel Kahneman, and The Power of Habit by Charles Duhigg. Please reach out if you have any recommendations!"
+          description="Stoicism, behavioral economics, and psychology are just a few of the diverse subjects I recently explored. Some of my favorite books are The Black Swan by Nassim Nicholas Taleb, Thinking, Fast and Slow by Daniel Kahneman, and The Power of Habit by Charles Duhigg. Please reach out if you have any recommendations!"
         />
+
         <PictureCard
           title="Gaming"
           picture={gamingPicture}
-          description="I love playing both single and multiplayer games with or without friends. Recently, I loved Assassin’s Creed; Origins, Odyssey, and Valhalla were all great. I'm pumped for Dying Light 2, Far Cry 6, and Halo Infinite to come out later this year and Elder Scrolls 6, which probably won’t be out until I graduate from college😢."
+          description="I love playing both single and multiplayer games with or without friends. Recently, I loved Assassin’s Creed; Origins, Odyssey, and Valhalla were all great. I am thrilled for Dying Light 2, Far Cry 6, and Halo Infinite to come out later this year and Elder Scrolls 6 after I graduate😢."
         />
         <PictureCard
           title="Walking"
           picture={walkingPicture}
-          description="There is something so peaceful about throwing in earbuds and going for a walk, especially in nature. In Minnesota, I don’t get to go for many walks when it’s nice out, so I make the most of the time I have. Going on walks is a beautiful thing that helps me disconnect from work and school momentarily and return focused."
+          description="There is something so peaceful about throwing in earbuds and going for a walk, especially in nature. In Minnesota, I do not get to go for many walks when it is nice out, so I make the most of the opportunities I get. Going on walks is a beautiful thing that helps me disconnect from work and school momentarily and return focused."
         />
       </Grid>
     </>
