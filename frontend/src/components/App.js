@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 import { Switch, Route, Link, BrowserRouter } from "react-router-dom";
 import {
-  Paper,
-  createTheme,
   Switch as SwitchComponent,
   AppBar,
   Toolbar,
   Tabs,
   Tab,
+  Paper,
+  Grid,
 } from "@material-ui/core/";
 import { ThemeProvider } from "@material-ui/core/styles";
 
 import AboutSite from "./AboutSite";
-import AboutMe from "./AboutMe";
+import AboutMe from "./aboutMe/AboutMe";
 import Resume from "./Resume";
 import Projects from "./Projects";
 import { lightTheme, darkTheme } from "./Themes";
@@ -21,10 +21,10 @@ export default function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <BrowserRouter>
-      <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-        <Paper style={{ height: "100vh" }}>
-          <div className="App">
+    <Grid container xs={12}>
+      <Paper>
+        <BrowserRouter>
+          <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
             <Route
               path="/"
               render={({ location }) => (
@@ -63,6 +63,7 @@ export default function App() {
                       ></SwitchComponent>
                     </Toolbar>
                   </AppBar>
+
                   <Switch>
                     <Route path="/about" exact render={() => <AboutMe />} />
                     <Route path="/resume" exact render={() => <Resume />} />
@@ -72,9 +73,9 @@ export default function App() {
                 </>
               )}
             />
-          </div>
-        </Paper>
-      </ThemeProvider>
-    </BrowserRouter>
+          </ThemeProvider>
+        </BrowserRouter>
+      </Paper>
+    </Grid>
   );
 }

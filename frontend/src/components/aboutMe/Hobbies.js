@@ -1,0 +1,54 @@
+import React from "react";
+import { Grid, Typography } from "@material-ui/core";
+import PictureCard from "./PictureCard";
+
+import weightsPicture from "./images/weights.jpeg";
+import cookingPicture from "./images/cooking.jpeg";
+import codingPicture from "./images/coding.jpeg";
+import readingPicture from "./images/reading.jpeg";
+import gamingPicture from "./images/gaming.jpeg";
+import walkingPicture from "./images/walking.jpeg";
+
+const Hobbies = () => {
+  return (
+    <>
+      <Typography style={{ marginBottom: 10, marginTop: 10 }} variant="h3">
+        Hobbies
+      </Typography>
+      <Grid container xs={12}>
+        <PictureCard
+          title="Working Out"
+          picture={weightsPicture}
+          description="Almost every day, I eagerly wait for my workout. I love it all, even cardio. Pushing my limits, refining my workouts and diet, and seeing gradual progress over the last few years have been immensely gratifying. Helping my interested friends get started and seeing their progress has been even more rewarding."
+        />
+        <PictureCard
+          title="Cooking"
+          picture={cookingPicture}
+          description="Initially, I wasn't the biggest fan of cooking, but now I love it. With practice and help from my family, I can now quickly cook healthy, delicious meals. At the moment, I am pretty good at grilling and cooking proteins. Over the rest of the summer, I want to learn how to cook more vegetables and carbs and make more complete meals."
+        />
+        <PictureCard
+          title="Coding"
+          picture={codingPicture}
+          description="Seeing what problems I can solve and what I can build through code, the logic and planning that goes into a well-designed solution, and learning technologies to tackle new problems are just a few of the reasons I love coding and computer science. Whether it is working on web applications, writing scripts, or tuning machine learning algorithms, I enjoy the process of problem-solving."
+        />
+        <PictureCard
+          title="Reading"
+          picture={readingPicture}
+          description="Stoicism, behavioral economics, and psychology are just a few of the diverse subjects I have recently explored. Some of my favorite books are The Black Swan by Nassim Nicholas Taleb, Thinking, Fast and Slow by Daniel Kahneman, and The Power of Habit by Charles Duhigg. Please reach out if you have any recommendations!"
+        />
+        <PictureCard
+          title="Gaming"
+          picture={gamingPicture}
+          description="I love playing both single and multiplayer games with or without friends. Recently, I loved Assassin’s Creed; Origins, Odyssey, and Valhalla were all great. I'm pumped for Dying Light 2, Far Cry 6, and Halo Infinite to come out later this year and Elder Scrolls 6, which probably won’t be out until I graduate from college😢."
+        />
+        <PictureCard
+          title="Walking"
+          picture={walkingPicture}
+          description="There is something so peaceful about throwing in earbuds and going for a walk, especially in nature. In Minnesota, I don’t get to go for many walks when it’s nice out, so I make the most of the time I have. Going on walks is a beautiful thing that helps me disconnect from work and school momentarily and return focused."
+        />
+      </Grid>
+    </>
+  );
+};
+
+export default Hobbies;
