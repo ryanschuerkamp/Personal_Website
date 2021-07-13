@@ -1,4 +1,5 @@
 import React from "react";
+import { Link as RouterLink } from "react-router-dom";
 import {
   Avatar,
   Grid,
@@ -11,7 +12,7 @@ import {
 import { makeStyles } from "@material-ui/styles";
 import { GitHub, LinkedIn, MailOutline } from "@material-ui/icons";
 
-import profilePicture from "../sidebar/profile_picture.jpeg";
+import profilePicture from "./sidebar/profile_picture.jpeg";
 
 const useStyles = makeStyles((theme) => ({
   profilePicture: {
@@ -31,7 +32,8 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Footer = () => {
+const Footer = (props) => {
+  const { resumePage } = props;
   const classes = useStyles();
   return (
     <Grid container alignItems="center" justifyContent="center">
@@ -77,7 +79,8 @@ const Footer = () => {
             style={{ marginBottom: 35 }}
             variant="contained"
             color="secondary"
-            href="/resume"
+            component={RouterLink}
+            to={resumePage ? "/about" : "/resume"}
           >
             Learn More
           </Button>
@@ -100,7 +103,10 @@ const Footer = () => {
               <MailOutline fontSize="inherit" className={classes.icons} />
             </Link>
           </Grid>
-          <Typography style={{ marginTop: 10 }} variant="body2">
+          <Typography
+            style={{ marginTop: 10, marginBottom: 10 }}
+            variant="body2"
+          >
             © Ryan Schuerkamp{" "}
             <Link href="https://ryanschuerkamp.com">ryanschuerkamp.com</Link>
           </Typography>
@@ -109,6 +115,10 @@ const Footer = () => {
       <Grid item xs={2} />
     </Grid>
   );
+};
+
+Footer.defaultProps = {
+  resumePage: false,
 };
 
 export default Footer;

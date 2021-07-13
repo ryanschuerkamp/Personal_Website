@@ -1,15 +1,17 @@
 import React, { useState } from "react";
 import { Switch, Route, Link, BrowserRouter } from "react-router-dom";
 import {
-  Switch as SwitchComponent,
   AppBar,
   Toolbar,
   Tabs,
   Tab,
   Paper,
   Grid,
+  useMediaQuery,
+  IconButton,
 } from "@material-ui/core/";
 import { ThemeProvider } from "@material-ui/core/styles";
+import { Brightness4, Brightness7 } from "@material-ui/icons";
 
 import AboutSite from "./AboutSite";
 import AboutMe from "./aboutMe/AboutMe";
@@ -18,7 +20,8 @@ import Projects from "./Projects";
 import { lightTheme, darkTheme } from "./Themes";
 
 export default function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
+  const [darkMode, setDarkMode] = useState(prefersDarkMode);
 
   return (
     <Grid container>
@@ -31,9 +34,13 @@ export default function App() {
                 <>
                   <AppBar position="static">
                     <Toolbar>
-                      <Tabs value={location.pathname}>
+                      <Tabs
+                        value={location.pathname}
+                        variant="scrollable"
+                        scrollButtons="on"
+                      >
                         <Tab
-                          label="About This Site"
+                          label="About Site"
                           value="/"
                           component={Link}
                           to="/"
@@ -57,10 +64,12 @@ export default function App() {
                           to="/projects"
                         />
                       </Tabs>
-                      <SwitchComponent
-                        checked={darkMode}
-                        onChange={() => setDarkMode(!darkMode)}
-                      ></SwitchComponent>
+                      <IconButton
+                        color="secondary"
+                        onClick={() => setDarkMode(!darkMode)}
+                      >
+                        {darkMode ? <Brightness7 /> : <Brightness4 />}
+                      </IconButton>
                     </Toolbar>
                   </AppBar>
 

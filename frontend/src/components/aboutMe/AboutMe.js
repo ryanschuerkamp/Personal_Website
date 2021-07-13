@@ -2,7 +2,7 @@ import React from "react";
 import { Grid, Typography, Divider, Hidden } from "@material-ui/core";
 
 import Sidebar from "../sidebar/Sidebar";
-import Footer from "../footer/Footer";
+import Footer from "../Footer";
 import Hobbies from "./Hobbies";
 import Background from "./Background";
 

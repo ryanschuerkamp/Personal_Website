@@ -1,4 +1,5 @@
 import React from "react";
+import { Link as RouterLink } from "react-router-dom";
 import {
   Avatar,
   Grid,
@@ -31,7 +32,8 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Sidebar = () => {
+const Sidebar = (props) => {
+  const { resumePage } = props;
   const classes = useStyles();
   return (
     <Grid container>
@@ -64,7 +66,8 @@ const Sidebar = () => {
           style={{ marginBottom: 35 }}
           variant="contained"
           color="secondary"
-          href="/resume"
+          component={RouterLink}
+          to={resumePage ? "/about" : "/resume"}
         >
           Learn More
         </Button>
@@ -86,6 +89,10 @@ const Sidebar = () => {
       <Grid item xs={5} lg={3}></Grid>
     </Grid>
   );
+};
+
+Sidebar.defaultProps = {
+  resumePage: false,
 };
 
 export default Sidebar;

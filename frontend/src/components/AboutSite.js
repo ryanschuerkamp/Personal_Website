@@ -1,15 +1,27 @@
 import React from "react";
-import { Grid, Typography } from "@material-ui/core";
+import { Grid, Typography, Hidden } from "@material-ui/core";
+
 import Sidebar from "./sidebar/Sidebar";
+import Footer from "./Footer";
 
 const AboutSite = () => {
   return (
     <Grid container>
-      <Grid item xs={false} sm={4}>
-        <Sidebar />
-      </Grid>
-      <Grid item xs={12} sm={8}>
-        <Typography variant="h1">About This Site</Typography>
+      <Hidden mdDown={true}>
+        <Grid item xs={false} sm={4}>
+          <Sidebar />
+        </Grid>
+      </Hidden>
+      <Grid item container xs={12} lg={8} direction="column">
+        <Grid item container>
+          <Grid item xs={2} sm={3} md={1} lg={false} />
+          <Grid item xs={10} sm={9} md={11} lg={12}>
+            <Typography variant="h1">About Site</Typography>
+          </Grid>
+        </Grid>
+        <Hidden lgUp={true}>
+          <Footer />
+        </Hidden>
       </Grid>
     </Grid>
   );
