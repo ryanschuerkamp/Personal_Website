@@ -16,7 +16,7 @@ import { Brightness4, Brightness7 } from "@material-ui/icons";
 import AboutSite from "./AboutSite";
 import AboutMe from "./aboutMe/AboutMe";
 import Resume from "./resume/Resume";
-import Projects from "./Projects";
+import Projects from "./projects/Projects";
 import { lightTheme, darkTheme } from "./Themes";
 
 export default function App() {

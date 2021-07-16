@@ -1,0 +1,67 @@
+import React from "react";
+import { Grid, Typography, Hidden, Divider } from "@material-ui/core";
+
+import Sidebar from "../sidebar/Sidebar";
+import Footer from "../Footer";
+import ProjectCard from "./ProjectCard";
+import thisWebsiteLightImage from "./images/thisWebsiteLight.jpeg";
+import songPopularityImage from "./images/songPopularity.jpeg";
+import twitterMisinformationImage from "./images/tweetAnalysis.jpeg";
+
+const Projects = (props) => {
+  return (
+    <Grid container>
+      <Hidden mdDown={true}>
+        <Grid item xs={false} sm={4}>
+          <Sidebar />
+        </Grid>
+      </Hidden>
+      <Grid item container xs={12} lg={8} direction="column">
+        <Grid item container>
+          <Grid item xs={2} sm={3} md={1} lg={false} />
+          <Grid item xs={10} sm={9} md={11} lg={12}>
+            <Typography variant="h1">Projects</Typography>
+            <Divider />
+            <ProjectCard
+              title="This Website"
+              date="July 2021"
+              image={thisWebsiteLightImage}
+              description={[
+                "Designed and developed this responsive website using React, React-Router, and Material UI",
+                "Deployed using Github pages",
+              ]}
+              github="https://github.com/ryanschuerkamp/Personal_Website"
+              url="ryanschuerkamp.com"
+            />
+            <ProjectCard
+              title="Modeling Song Popularity"
+              date="April 2021"
+              image={songPopularityImage}
+              description={[
+                "Completed data processing and exploratory data analysis on 5 datasets from Spotify utilizing R",
+                "Fit 4 regression models using R to identify significant predictor variables for song popularity",
+                "Implemented repeated cross-validation with R to select an optimal model for predicting song popularity",
+              ]}
+              noLinkMessage="Group project for Statistical Modeling, so can't share github link."
+            />
+            <ProjectCard
+              title="Twitter Misinformation Analysis"
+              date="January 2021"
+              image={twitterMisinformationImage}
+              description={[
+                "Scraped 1000 tweets containing coronavirus vaccine misinformation using Python, Snscrape, and TwitterAPI",
+                "Analyzed tweets using Pandas and visualized data using Matplotlib to further convey results and provide visualizations for web application teammates designed in React",
+              ]}
+              github="https://github.com/ryanschuerkamp/nwHacks2021"
+            />
+          </Grid>
+        </Grid>
+        <Hidden lgUp={true}>
+          <Footer />
+        </Hidden>
+      </Grid>
+    </Grid>
+  );
+};
+
+export default Projects;

@@ -48,7 +48,7 @@ const Experience = () => {
           <li>
             Fit a Kernel SVM algorithm employing Scikit-learn, Python, and
             Pandas on a subset of network traffic, distinguishing between botnet
-            and non-botnet traffic with over 99\% accuracy
+            and non-botnet traffic with over 99% accuracy
           </li>
           <li>
             Presented current research findings to an audience of over 50
