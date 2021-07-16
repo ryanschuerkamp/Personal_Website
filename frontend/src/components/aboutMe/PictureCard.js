@@ -25,7 +25,7 @@ const PictureCard = (props) => {
   const classes = useStyles(props);
 
   return (
-    <Card className={classes.root}>
+    <Card raised className={classes.root}>
       <CardActionArea>
         <CardMedia className={classes.media} image={picture} />
         <CardContent>

@@ -156,7 +156,7 @@ const Education = () => {
   );
 
   return (
-    <Grid item container xs={12}>
+    <>
       <Typography style={{ marginTop: 10 }} variant="h4">
         Education
       </Typography>
@@ -186,7 +186,7 @@ const Education = () => {
           </ul>
         </ul>
       </Typography>
-    </Grid>
+    </>
   );
 };
 
