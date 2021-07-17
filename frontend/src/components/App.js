@@ -34,19 +34,9 @@ export default function App() {
                 <>
                   <AppBar position="static">
                     <Toolbar>
-                      <Tabs
-                        value={location.pathname}
-                        variant="scrollable"
-                        scrollButtons="on"
-                      >
+                      <Tabs value={location.pathname}>
                         <Tab
-                          label="About Site"
-                          value="/"
-                          component={Link}
-                          to="/"
-                        />
-                        <Tab
-                          label="About Me"
+                          label="About"
                           value="/about"
                           component={Link}
                           to="/about"

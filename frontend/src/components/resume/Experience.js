@@ -17,7 +17,7 @@ const Experience = () => {
           <li>
             Web scraped SEC website and Form ADVs using Python and Pandas to
             produce a list of important officials for all 14,000+ Registered
-            Investment Advisers with over 99\% accuracy
+            Investment Advisers with over 99% accuracy
           </li>
           <li>
             Built and deployed an API with Node.js and Google Cloud to take a

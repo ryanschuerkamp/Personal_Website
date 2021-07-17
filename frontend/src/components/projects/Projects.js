@@ -12,14 +12,14 @@ const Projects = (props) => {
   return (
     <Grid container>
       <Hidden mdDown={true}>
-        <Grid item xs={false} sm={4}>
+        <Grid item lg={4}>
           <Sidebar />
         </Grid>
       </Hidden>
-      <Grid item container xs={12} lg={8} direction="column">
+      <Grid item container xs={12} lg={7} direction="column">
         <Grid item container>
-          <Grid item xs={2} sm={3} md={1} lg={false} />
-          <Grid item xs={10} sm={9} md={11} lg={12}>
+          <Grid item xs={1} lg={false} />
+          <Grid item xs={10} lg={11}>
             <Typography variant="h1">Projects</Typography>
             <Divider />
             <ProjectCard
@@ -60,6 +60,7 @@ const Projects = (props) => {
           <Footer />
         </Hidden>
       </Grid>
+      <Grid item xs={1} />
     </Grid>
   );
 };
