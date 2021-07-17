@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Grid, Divider } from "@material-ui/core";
+import { Typography, Grid } from "@material-ui/core";
 
 const Experience = () => {
   return (

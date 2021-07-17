@@ -22,8 +22,8 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const renderDescriptionList = (description) => {
-  return description.map((item) => {
-    return <li>{item}</li>;
+  return description.map((item, index) => {
+    return <li key={index}>{item}</li>;
   });
 };
 
@@ -38,11 +38,11 @@ const ProjectCard = (props) => {
         <CardHeader title={title} subheader={date} />
         <CardMedia className={classes.media} image={image} />
         <CardContent>
-          <Typography variant="body1" component="p">
+          <Typography variant="body1" component="div">
             <ul>
               {description && renderDescriptionList(description)}
               {github && (
-                <Typography variant="body1" component="p">
+                <Typography variant="body1">
                   <li>
                     <Link href={github} target="_blank" rel="noopener">
                       Github
@@ -51,7 +51,7 @@ const ProjectCard = (props) => {
                 </Typography>
               )}
               {url && (
-                <Typography variant="body1" component="p">
+                <Typography variant="body1">
                   <li>
                     URL:{" "}
                     <Link href={url} target="_blank" rel="noopener">

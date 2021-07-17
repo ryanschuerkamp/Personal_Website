@@ -27,7 +27,7 @@ const Projects = (props) => {
               date="July 2021"
               image={thisWebsiteImage}
               description={[
-                "Designed and developed this responsive website using React, React-Router, and Material UI",
+                "Designed and developed this responsive website with React, React-Router, and Material UI",
                 "Deployed using Github pages",
               ]}
               github="https://github.com/ryanschuerkamp/Personal_Website"
