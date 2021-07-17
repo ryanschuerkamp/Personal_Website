@@ -72,8 +72,12 @@ const Footer = (props) => {
             Hi, I’m Ryan. I love solving challenging problems. I am a rising
             Sophomore at Miami University majoring in Computer Science, Data
             Science and Statistics, and Mathematics. Currently, I am interning
-            at <Link href="https://joot.io/">Joot</Link> as a Software Engineer
-            and researching applying machine learning to cybersecurity.
+            at{" "}
+            <Link href="https://joot.io/" target="_blank" rel="noopener">
+              Joot
+            </Link>{" "}
+            as a Software Engineer and researching applying machine learning to
+            cybersecurity.
           </Typography>
           <Button
             style={{ marginBottom: 35 }}
@@ -93,10 +97,18 @@ const Footer = (props) => {
           justifyContent="center"
         >
           <Grid container item justifyContent="center">
-            <Link href="https://github.com/ryanschuerkamp">
+            <Link
+              href="https://github.com/ryanschuerkamp"
+              target="_blank"
+              rel="noopener"
+            >
               <GitHub className={classes.icons} />
             </Link>
-            <Link href="https://www.linkedin.com/in/ryan-schuerkamp/">
+            <Link
+              href="https://www.linkedin.com/in/ryan-schuerkamp/"
+              target="_blank"
+              rel="noopener"
+            >
               <LinkedIn className={classes.icons} />
             </Link>
             <Link href="mailto:schuerr2@miamioh.edu">
@@ -108,7 +120,13 @@ const Footer = (props) => {
             variant="body2"
           >
             © Ryan Schuerkamp{" "}
-            <Link href="https://ryanschuerkamp.com">ryanschuerkamp.com</Link>
+            <Link
+              href="https://ryanschuerkamp.com"
+              target="_blank"
+              rel="noopener"
+            >
+              ryanschuerkamp.com
+            </Link>
           </Typography>
         </Grid>
       </Grid>

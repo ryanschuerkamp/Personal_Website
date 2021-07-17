@@ -4,7 +4,7 @@ import { Grid, Typography, Hidden, Divider } from "@material-ui/core";
 import Sidebar from "../sidebar/Sidebar";
 import Footer from "../Footer";
 import ProjectCard from "./ProjectCard";
-import thisWebsiteLightImage from "./images/thisWebsiteLight.jpeg";
+import thisWebsiteImage from "./images/thisWebsite.jpeg";
 import songPopularityImage from "./images/songPopularity.jpeg";
 import twitterMisinformationImage from "./images/tweetAnalysis.jpeg";
 
@@ -25,13 +25,12 @@ const Projects = (props) => {
             <ProjectCard
               title="This Website"
               date="July 2021"
-              image={thisWebsiteLightImage}
+              image={thisWebsiteImage}
               description={[
                 "Designed and developed this responsive website using React, React-Router, and Material UI",
                 "Deployed using Github pages",
               ]}
               github="https://github.com/ryanschuerkamp/Personal_Website"
-              url="ryanschuerkamp.com"
             />
             <ProjectCard
               title="Modeling Song Popularity"

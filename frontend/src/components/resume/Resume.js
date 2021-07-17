@@ -12,7 +12,7 @@ const Resume = () => {
   return (
     <Grid container>
       <Hidden mdDown={true}>
-        <Grid item xs={false} sm={4}>
+        <Grid item lg={4}>
           <Sidebar resumePage={true} />
         </Grid>
       </Hidden>
@@ -38,7 +38,7 @@ const Resume = () => {
           <Footer resumePage={true} />
         </Hidden>
       </Grid>
-      <Grid item xs={1} lg={1} xl={2} />
+      <Grid item xs={1} xl={2} />
     </Grid>
   );
 };

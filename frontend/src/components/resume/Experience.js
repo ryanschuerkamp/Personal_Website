@@ -65,7 +65,7 @@ const Experience = () => {
       <Typography component="div" variant="body1">
         <ul>
           <li>
-            Lead team of 3 developers in development of new MU Blockchain Club
+            Led team of 3 developers in development of new MU Blockchain Club
             website using React and Material UI
           </li>
           <li>

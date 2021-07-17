@@ -27,7 +27,7 @@ const generateCourseList = (courses) => {
   return courses.map((course) => {
     return (
       <li key={course[1]}>
-        <Link href={course[0]} target="_blank">
+        <Link href={course[0]} target="_blank" rel="noopener">
           {course[1]}
         </Link>
       </li>

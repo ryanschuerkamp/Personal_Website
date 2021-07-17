@@ -44,9 +44,8 @@ const ProjectCard = (props) => {
               {github && (
                 <Typography variant="body1" component="p">
                   <li>
-                    Github:{" "}
-                    <Link href={github} target="_blank">
-                      {github}
+                    <Link href={github} target="_blank" rel="noopener">
+                      Github
                     </Link>
                   </li>
                 </Typography>
@@ -55,7 +54,7 @@ const ProjectCard = (props) => {
                 <Typography variant="body1" component="p">
                   <li>
                     URL:{" "}
-                    <Link href={url} target="_blank">
+                    <Link href={url} target="_blank" rel="noopener">
                       {url}
                     </Link>
                   </li>
