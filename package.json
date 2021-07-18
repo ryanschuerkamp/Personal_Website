@@ -1,8 +1,12 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "http://ryanschuerkamp.github.io/Personal_Website",
+  "homepage": "https://ryanschuerkamp.com",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanschuerkamp/Personal_Website"
+  },
   "dependencies": {
     "@material-ui/core": "^4.12.1",
     "@material-ui/icons": "^4.11.2",
