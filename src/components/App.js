@@ -35,6 +35,7 @@ export default function App() {
                   <AppBar position="static">
                     <Toolbar>
                       <Tabs value={location.pathname}>
+                        <Tab label="Home" value="/" component={Link} to="/" />
                         <Tab
                           label="About"
                           value="/about"
