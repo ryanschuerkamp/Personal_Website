@@ -45,7 +45,7 @@ const ProjectCard = (props) => {
                 <Typography variant="body1">
                   <li>
                     <Link href={github} target="_blank" rel="noopener">
-                      Github
+                      GitHub
                     </Link>
                   </li>
                 </Typography>

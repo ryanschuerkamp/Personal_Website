@@ -17,7 +17,7 @@ const SkillsAndHonors = () => {
         <li>
           <Typography variant="body1">
             Web Development: Node.js, MongoDB, React, Redux, Express.js,
-            Material UI, HTML, CSS
+            Material-UI, HTML, CSS
           </Typography>
         </li>
       </ul>

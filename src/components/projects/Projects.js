@@ -27,8 +27,8 @@ const Projects = (props) => {
               date="July 2021"
               image={thisWebsiteImage}
               description={[
-                "Designed and developed this responsive website with React, React-Router, and Material UI",
-                "Deployed using Github pages",
+                "Designed and developed this responsive website with React, React-Router, and Material-UI",
+                "Deployed using GitHub pages",
               ]}
               github="https://github.com/ryanschuerkamp/Personal_Website"
             />
@@ -41,7 +41,7 @@ const Projects = (props) => {
                 "Fit 4 regression models using R to identify significant predictor variables for song popularity",
                 "Implemented repeated cross-validation with R to select an optimal model for predicting song popularity",
               ]}
-              noLinkMessage="Group project for Statistical Modeling, so can't share github link."
+              noLinkMessage="Group project for Statistical Modeling, so can not share GitHub link"
             />
             <ProjectCard
               title="Twitter Misinformation Analysis"
@@ -49,7 +49,7 @@ const Projects = (props) => {
               image={twitterMisinformationImage}
               description={[
                 "Scraped 1000 tweets containing coronavirus vaccine misinformation using Python, Snscrape, and TwitterAPI",
-                "Analyzed tweets using Pandas and visualized data using Matplotlib to further convey results and provide visualizations for web application teammates designed in React",
+                "Analyzed tweets using Pandas and visualized data using Matplotlib to convey results and provide visualizations for web application teammates designed in React",
               ]}
               github="https://github.com/ryanschuerkamp/nwHacks2021"
             />

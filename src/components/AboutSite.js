@@ -20,15 +20,15 @@ const AboutSite = () => {
             <Typography variant="h1">About This Site</Typography>
             <Divider />
             <Typography variant="h4" style={{ marginTop: 10 }}>
-              A responsive website built using React, React-Router, and Material
-              UI
+              A responsive website built using React, React-Router, and
+              Material-UI
             </Typography>
             <Typography variant="h5" style={{ marginTop: 40 }}>
               Welcome to my website! Please feel free to read more{" "}
               <Link component={RouterLink} to="/about">
                 about me,
               </Link>{" "}
-              checkout my{" "}
+              check out my{" "}
               <Link component={RouterLink} to="/resume">
                 resume
               </Link>{" "}
@@ -51,7 +51,6 @@ const AboutSite = () => {
               >
                 here
               </Link>
-              .
             </Typography>
           </Grid>
         </Grid>
