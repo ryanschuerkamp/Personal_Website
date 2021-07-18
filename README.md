@@ -8,6 +8,8 @@ My personal website. Built with React, React-Router, and Material UI. Deployed u
 
 ### Set Up
 
+To download the repository and install dependencies, run the following commands:
+
 ```bash
 git clone https://github.com/ryanschuerkamp/Personal_Website.git
 ```
@@ -15,11 +17,15 @@ git clone https://github.com/ryanschuerkamp/Personal_Website.git
 cd Personal_Website/
 ```
 ```bash
-npm install
+npm install # Need Node.js installed before running this command
 ```
 
 ### Running
 
+To build the react application, run the following command:
+
 ```bash
 npm start
 ```
+
+Your browser should automatically open the application. 
