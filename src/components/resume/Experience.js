@@ -37,7 +37,7 @@ const Experience = () => {
       ],
     },
     {
-      title: "Machine Learning Researcher ",
+      title: "Machine Learning Researcher",
       company: "Malware Research Group",
       dates: "October 2020 – Present",
       accomplishments: [
@@ -51,7 +51,7 @@ const Experience = () => {
       company: "MU Blockchain Club",
       dates: "October 2020 – Present",
       accomplishments: [
-        "Led team of 3 developers in development of new MU Blockchain Club website using React and Material UI",
+        "Led team of 3 developers in development of new MU Blockchain Club website using React and Material-UI",
         "Direct vision of 5 person development team and represent developer interests on Executive Board",
       ],
     },
