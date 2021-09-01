@@ -17,8 +17,8 @@ const renderSkillsOrHonors = (items) => {
 
 const SkillsAndHonors = () => {
   const skills = renderSkillsOrHonors([
-    "Proficient Programming Languages: Python, Java, C++, R, SQL, JavaScript",
-    "Web Development: Node.js, MongoDB, React, Redux, Express.js, Material-UI, HTML, CSS",
+    "Proficient Programming Languages: Python, Java, C++, SQL, JavaScript, R",
+    "Other Technologies: Node.js, React, MongoDB, Material-UI, Google Cloud, GitHub",
   ]);
 
   const honorsAndAwards = renderSkillsOrHonors([

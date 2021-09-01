@@ -31,9 +31,9 @@ const Experience = () => {
       company: "Joot",
       dates: "May 2021 – Present",
       accomplishments: [
-        "Web scraped SEC website and Form ADVs using Python and Pandas to produce a list of important officials for all 14,000+ Registered Investment Advisers with over 99% accuracy",
-        "Built and deployed an API with Node.js and Google Cloud to take a firm’s CRD number and generate and send a list of recommended policies based on firms most recent Form ADV to email provided",
-        "Created and executed a script to transfer 70 signed documents from version 1 to version 2 of application leveraging Node.js, MongoDB driver, Google Cloud, and HelloSign API",
+        "Expanded marketing efforts by web scraping SEC website and Form ADVs using Python and Pandas to produce a list of important officials for all 14,000+ Registered Investment Advisers with over 99% accuracy",
+        "Demonstrated Joot’s capabilities to potential clients by building and deploying an API with Node.js and Google Cloud to generate a list of recommended policies based on firm's CRD number",
+        "Completed data migration from version 1 to version 2 of application by creating a script to transfer 70 signed documents leveraging Node.js, MongoDB driver, Google Cloud, and HelloSign API",
       ],
     },
     {
@@ -42,7 +42,7 @@ const Experience = () => {
       dates: "October 2020 – Present",
       accomplishments: [
         "Performed feature extraction on over 100 GB of network traffic utilizing Python, Pandas, Scapy, and Miami University’s high-performance computing cluster",
-        "Fit a Kernel SVM algorithm employing Scikit-learn, Python, and Pandas on a subset of network traffic, distinguishing between botnet and non-botnet traffic with over 99% accuracy",
+        "Distinguished botnet from non-botnet traffic with over 99% accuracy on a subset of network traffic employing Scikit-learn, Python, and Pandas",
         "Presented current research findings to an audience of over 50 student researchers and professors at Miami University’s Undergraduate Research Forum",
       ],
     },
@@ -51,8 +51,8 @@ const Experience = () => {
       company: "MU Blockchain Club",
       dates: "October 2020 – Present",
       accomplishments: [
-        "Led team of 3 developers in development of new MU Blockchain Club website using React and Material-UI",
-        "Direct vision of 5 person development team and represent developer interests on Executive Board",
+        "Developed new MU Blockchain Club website collaborating with 2 designers and using React and Material-UI",
+        "Created course content for 3 classes on blockchain security, tokens and NFTs, and blockchain use cases",
       ],
     },
   ]);

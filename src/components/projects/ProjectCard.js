@@ -53,9 +53,8 @@ const ProjectCard = (props) => {
               {url && (
                 <Typography variant="body1">
                   <li>
-                    URL:{" "}
                     <Link href={url} target="_blank" rel="noopener">
-                      {url}
+                      Link to deployment
                     </Link>
                   </li>
                 </Typography>

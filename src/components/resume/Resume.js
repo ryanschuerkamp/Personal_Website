@@ -6,7 +6,6 @@ import Footer from "../Footer";
 import Education from "./Education";
 import Experience from "./Experience";
 import SkillsAndHonors from "./SkillsAndHonors";
-import Ryan_Schuerkamp_Resume from "./Ryan_Schuerkamp_Resume.pdf";
 
 const Resume = () => {
   return (
@@ -22,8 +21,8 @@ const Resume = () => {
           <Grid item xs={10} lg={12}>
             <Typography variant="h1">Resume</Typography>
             <Typography variant="subtitle1">
-              <Link href={Ryan_Schuerkamp_Resume} target="_blank">
-                PDF Version Here
+              <Link href="mailto:schuerr2@miamioh.edu">
+                Email me for current PDF version
               </Link>
             </Typography>
             <Divider />

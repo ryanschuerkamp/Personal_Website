@@ -70,9 +70,8 @@ const Footer = (props) => {
             variant="body1"
           >
             Hi, I’m Ryan. I love solving challenging problems. I am a rising
-            Sophomore at Miami University majoring in Computer Science, Data
-            Science and Statistics, and Mathematics. Currently, I am interning
-            at{" "}
+            Sophomore at Miami University majoring in Computer Science and Data
+            Science/Statistics. Currently, I am interning at{" "}
             <Link href="https://joot.io/" target="_blank" rel="noopener">
               Joot
             </Link>{" "}

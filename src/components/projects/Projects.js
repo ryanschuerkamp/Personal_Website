@@ -4,7 +4,7 @@ import { Grid, Typography, Hidden, Divider } from "@material-ui/core";
 import Sidebar from "../sidebar/Sidebar";
 import Footer from "../Footer";
 import ProjectCard from "./ProjectCard";
-import thisWebsiteImage from "./images/thisWebsite.jpeg";
+import mubcImage from "./images/mubc.jpeg";
 import songPopularityImage from "./images/songPopularity.jpeg";
 import twitterMisinformationImage from "./images/tweetAnalysis.jpeg";
 
@@ -23,14 +23,15 @@ const Projects = (props) => {
             <Typography variant="h1">Projects</Typography>
             <Divider />
             <ProjectCard
-              title="This Website"
+              title="MU Blockchain Club Website"
               date="July 2021"
-              image={thisWebsiteImage}
+              image={mubcImage}
               description={[
-                "Designed and developed this responsive website with React, React-Router, and Material-UI",
+                "Developed new MU Blockchain Club website collaborating with 2 designers and using React and Material-UI",
                 "Deployed using GitHub pages",
               ]}
-              github="https://github.com/ryanschuerkamp/Personal_Website"
+              github="https://github.com/MUBlockchain/React-Website"
+              url="https://mubc.io/"
             />
             <ProjectCard
               title="Modeling Song Popularity"
@@ -38,8 +39,8 @@ const Projects = (props) => {
               image={songPopularityImage}
               description={[
                 "Completed data processing and exploratory data analysis on 5 datasets from Spotify utilizing R",
-                "Fit 4 regression models using R to identify significant predictor variables for song popularity",
-                "Implemented repeated cross-validation with R to select an optimal model for predicting song popularity",
+                "Identified significant predictor variables for song popularity by fitting 4 regression models employing R",
+                "Selected an optimal model for predicting song popularity after implementing repeated cross-validation with R",
               ]}
               noLinkMessage="Group project for Statistical Modeling, so can not share GitHub link"
             />
@@ -48,8 +49,9 @@ const Projects = (props) => {
               date="January 2021"
               image={twitterMisinformationImage}
               description={[
-                "Scraped 1000 tweets containing coronavirus vaccine misinformation using Python, Snscrape, and TwitterAPI",
-                "Analyzed tweets using Pandas and visualized data using Matplotlib to convey results and provide visualizations for web application teammates designed in React",
+                "Scraped 1000 tweets containing coronavirus vaccine misinformation using Python, Snscrape, and Twitter API",
+                "Discovered similarities between tweets containing coronavirus vaccine misinformation using Pandas",
+                "Conveyed results using Matplotlib and provided visualizations for application teammates designed in React",
               ]}
               github="https://github.com/ryanschuerkamp/nwHacks2021"
             />

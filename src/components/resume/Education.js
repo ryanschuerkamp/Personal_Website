@@ -89,6 +89,10 @@ const Education = () => {
       "383 Web Application Programming",
     ],
     [
+      "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-381/index.html",
+      "381 Systems 2",
+    ],
+    [
       "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-374/index.html",
       "374 Algorithms I",
     ],
@@ -115,7 +119,6 @@ const Education = () => {
   ]);
 
   const mthList = generateCourseList([
-    ["https://bulletin.miamioh.edu/search/?P=MTH%20432", "432 Optimization"],
     [
       "https://bulletin.miamioh.edu/search/?P=MTH%20331",
       "331 Proof: Introduction to Higher Mathematics",
@@ -166,10 +169,7 @@ const Education = () => {
       </Grid>
       <Typography component="div" variant="body1">
         <ul>
-          <li>
-            B.S. in Computer Science, B.S. in Data Science and Statistics, B.A.
-            in Mathematics
-          </li>
+          <li>B.S. in Computer Science, B.S. in Data Science and Statistics</li>
           <li>GPA: 4.00</li>
           <li>
             University Honors Program and Computing and Engineering Scholar
