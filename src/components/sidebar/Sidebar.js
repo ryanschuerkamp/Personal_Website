@@ -56,14 +56,17 @@ const Sidebar = (props) => {
           <Box fontWeight="fontWeightBold">About</Box>
         </Typography>
         <Typography style={{ marginBottom: 20 }} variant="body1">
-          Hi, I’m Ryan. I love solving challenging problems. I am a rising
-          Sophomore at Miami University majoring in Computer Science and Data
-          Science/Statistics. Currently, I am interning at{" "}
+          Hi, I’m Ryan. I love solving challenging problems. I am a Sophomore at
+          Miami University majoring in Computer Science and Data
+          Science/Statistics. Currently, I am taking a master's research course
+          CSE 620 Network Analysis and Modeling. As a part of the course and
+          CDC-funded research, I am analyzing a cognitive map of what makes
+          children commit suicide. Last summer, I interned as a Software
+          Engineer at{" "}
           <Link href="https://joot.io/" target="_blank" rel="noopener">
             Joot
-          </Link>{" "}
-          as a Software Engineer and researching applying machine learning to
-          cybersecurity.
+          </Link>
+          , a fintech startup.
         </Typography>
         <Button
           style={{ marginBottom: 35 }}

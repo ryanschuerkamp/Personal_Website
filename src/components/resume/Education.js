@@ -169,7 +169,10 @@ const Education = () => {
       </Grid>
       <Typography component="div" variant="body1">
         <ul>
-          <li>B.S. in Computer Science, B.S. in Data Science and Statistics</li>
+          <li>
+            B.S. in Computer Science, B.S. in Data Science and Statistics, Minor
+            in Mathematics
+          </li>
           <li>GPA: 4.00</li>
           <li>
             University Honors Program and Computing and Engineering Scholar

@@ -17,7 +17,7 @@ import AboutSite from "./AboutSite";
 import AboutMe from "./aboutMe/AboutMe";
 import Resume from "./resume/Resume";
 import Projects from "./projects/Projects";
-import { lightTheme, darkTheme } from "./themes";
+import { lightTheme, darkTheme } from "./Themes";
 
 export default function App() {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");

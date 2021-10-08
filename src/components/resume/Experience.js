@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Grid } from "@material-ui/core";
+import { Typography, Grid, Divider } from "@material-ui/core";
 
 const renderExperiences = (experiences) => {
   return experiences.map((experience, index) => {
@@ -39,20 +39,23 @@ const Experience = () => {
     {
       title: "Machine Learning Researcher",
       company: "Malware Research Group",
-      dates: "October 2020 – Present",
+      dates: "October 2020 – July 2021",
       accomplishments: [
         "Performed feature extraction on over 100 GB of network traffic utilizing Python, Pandas, Scapy, and Miami University’s high-performance computing cluster",
         "Distinguished botnet from non-botnet traffic with over 99% accuracy on a subset of network traffic employing Scikit-learn, Python, and Pandas",
         "Presented current research findings to an audience of over 50 student researchers and professors at Miami University’s Undergraduate Research Forum",
       ],
     },
+  ]);
+
+  const activities = renderExperiences([
     {
       title: "Vice President of Projects",
       company: "MU Blockchain Club",
       dates: "October 2020 – Present",
       accomplishments: [
         "Developed new MU Blockchain Club website collaborating with 2 designers and using React and Material-UI",
-        "Created course content for 3 classes on blockchain security, tokens and NFTs, and blockchain use cases",
+        "Designed and taught 3 classes on blockchain security, tokens and NFTs, and use cases to class of 20+ students",
       ],
     },
   ]);
@@ -62,6 +65,11 @@ const Experience = () => {
         Experience
       </Typography>
       {experiences}
+      <Divider />
+      <Typography style={{ marginTop: 10 }} variant="h4">
+        Activities
+      </Typography>
+      {activities}
     </>
   );
 };

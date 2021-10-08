@@ -50,7 +50,7 @@ const Projects = (props) => {
               image={twitterMisinformationImage}
               description={[
                 "Scraped 1000 tweets containing coronavirus vaccine misinformation using Python, Snscrape, and Twitter API",
-                "Discovered similarities between tweets containing coronavirus vaccine misinformation using Pandas",
+                "Discovered similarities and common themes between tweets leveraging Python and Pandas",
                 "Conveyed results using Matplotlib and provided visualizations for application teammates designed in React",
               ]}
               github="https://github.com/ryanschuerkamp/nwHacks2021"
