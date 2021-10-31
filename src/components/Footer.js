@@ -74,7 +74,7 @@ const Footer = (props) => {
             Science/Statistics. Currently, I am taking a master's research
             course CSE 620 Network Analysis and Modeling. As a part of the
             course and CDC-funded research, I am analyzing a cognitive map of
-            what makes children commit suicide. Last summer, I interned as a
+            what makes adolescents commit suicide. Last summer, I interned as a
             Software Engineer at{" "}
             <Link href="https://joot.io/" target="_blank" rel="noopener">
               Joot

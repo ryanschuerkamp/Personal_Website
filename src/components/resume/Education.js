@@ -81,6 +81,14 @@ const Education = () => {
       "620C Network Analysis and Modeling",
     ],
     [
+      "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-491/index.html",
+      "491 Undergraduate Research Modeling Complex Social Systems",
+    ],
+    [
+      "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-467-567/index.html",
+      "467 Computer and Network Security",
+    ],
+    [
       "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-385/index.html",
       "385 Database Systems",
     ],
@@ -94,11 +102,11 @@ const Education = () => {
     ],
     [
       "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-374/index.html",
-      "374 Algorithms I",
+      "374 Algorithms",
     ],
     [
       "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-278/index.html",
-      "278 Systems I",
+      "278 Systems 1",
     ],
     [
       "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-274/index.html",
@@ -111,6 +119,10 @@ const Education = () => {
   ]);
 
   const staList = generateCourseList([
+    [
+      "https://bulletin.miamioh.edu/search/?search=STA+463",
+      "463: Regression Analysis",
+    ],
     ["https://bulletin.miamioh.edu/search/?P=STA%20401", "401 Probability"],
     [
       "https://bulletin.miamioh.edu/search/?P=STA%20363",
@@ -119,6 +131,10 @@ const Education = () => {
   ]);
 
   const mthList = generateCourseList([
+    [
+      "https://bulletin.miamioh.edu/search/?search=MTH+447",
+      "447: Topics in Mathematical Finance",
+    ],
     [
       "https://bulletin.miamioh.edu/search/?P=MTH%20331",
       "331 Proof: Introduction to Higher Mathematics",

@@ -37,7 +37,7 @@ const Experience = () => {
       ],
     },
     {
-      title: "Machine Learning Researcher",
+      title: "Undergraduate Researcher",
       company: "Malware Research Group",
       dates: "October 2020 – July 2021",
       accomplishments: [

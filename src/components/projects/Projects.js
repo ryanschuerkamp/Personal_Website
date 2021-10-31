@@ -4,7 +4,7 @@ import { Grid, Typography, Hidden, Divider } from "@material-ui/core";
 import Sidebar from "../sidebar/Sidebar";
 import Footer from "../Footer";
 import ProjectCard from "./ProjectCard";
-import mubcImage from "./images/mubc.jpeg";
+import causalLoopDiagram from "./images/causalLoopDiagram.jpeg";
 import songPopularityImage from "./images/songPopularity.jpeg";
 import twitterMisinformationImage from "./images/tweetAnalysis.jpeg";
 
@@ -23,26 +23,23 @@ const Projects = (props) => {
             <Typography variant="h1">Projects</Typography>
             <Divider />
             <ProjectCard
-              title="MU Blockchain Club Website"
-              date="July 2021"
-              image={mubcImage}
+              title="CDC Suicide Causal Map"
+              date="October 2021 - Present"
+              image={causalLoopDiagram}
               description={[
-                "Developed new MU Blockchain Club website collaborating with 2 designers and using React and Material-UI",
-                "Deployed using GitHub pages",
+                "Analyzing largest suicide causal map with over 360 nodes and 940 edges to understand interrelated factors contributing to suicide as part of CDC funded research using Python and NetworkX",
+                "Presenting differences between and analysis of 4 different suicide causal maps to panel of 5 CDC experts",
               ]}
-              github="https://github.com/MUBlockchain/React-Website"
-              url="https://mubc.io/"
             />
             <ProjectCard
               title="Modeling Song Popularity"
-              date="April 2021"
+              date="April 2021 - May 2021"
               image={songPopularityImage}
               description={[
                 "Completed data processing and exploratory data analysis on 5 datasets from Spotify utilizing R",
                 "Identified significant predictor variables for song popularity by fitting 4 regression models employing R",
                 "Selected an optimal model for predicting song popularity after implementing repeated cross-validation with R",
               ]}
-              noLinkMessage="Group project for Statistical Modeling, so can not share GitHub link"
             />
             <ProjectCard
               title="Twitter Misinformation Analysis"
