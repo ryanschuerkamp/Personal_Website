@@ -17,7 +17,7 @@ git clone https://github.com/ryanschuerkamp/Personal_Website.git
 cd Personal_Website/
 ```
 ```bash
-npm install # Need Node.js installed before running this command
+npm install # Need Node.js and npm installed before running this command
 ```
 
 ### Running
