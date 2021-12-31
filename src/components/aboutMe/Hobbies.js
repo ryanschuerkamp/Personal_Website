@@ -24,12 +24,12 @@ const Hobbies = () => {
         <PictureCard
           title="Cooking"
           picture={cookingPicture}
-          description="Initially, I was not the biggest fan of cooking, but now I love it. With practice and help from my family, I can now quickly cook healthy, delicious meals. At the moment, I am pretty good at grilling and cooking proteins. Over the rest of the summer, I want to learn how to cook more vegetables and carbs and make more complete meals."
+          description="Initially, I was not the biggest fan of cooking, but now I love it. With practice and help from my family, I can now quickly cook healthy, delicious meals. At the moment, I am pretty good at grilling and cooking proteins. Over break, I want to learn how to cook more vegetables and carbs and make more complete meals."
         />
         <PictureCard
           title="Coding"
           picture={codingPicture}
-          description="Seeing what problems I can solve and what I can build through code, the logic and planning that goes into a well-designed solution, and learning technologies to tackle new problems are just a few of the reasons I love coding and computer science. Whether it is working on web applications, writing scripts, or tuning machine learning algorithms, I enjoy the process of problem-solving."
+          description="Seeing what problems I can solve and what I can build through code, the logic and planning that goes into a well-designed solution, and learning technologies to tackle new problems are just a few of the reasons I love coding and computer science. Whether it is working on web applications, writing scripts, or building systems, I enjoy the process of problem-solving."
         />
         <PictureCard
           title="Reading"
@@ -40,7 +40,7 @@ const Hobbies = () => {
         <PictureCard
           title="Gaming"
           picture={gamingPicture}
-          description="I love playing both single and multiplayer games with or without friends. Recently, I loved Assassin’s Creed; Origins, Odyssey, and Valhalla were all great. I am thrilled for Dying Light 2, Far Cry 6, and Halo Infinite to come out later this year and Elder Scrolls 6 after I graduate😢."
+          description="I love playing both single and multiplayer games with or without friends. Recently, I loved Assassin’s Creed; Origins, Odyssey, and Valhalla were all great. Cyberpunk 2077 is also good now after all of the patches. I am thrilled for Dying Light 2 and Starfield to come out soon and Elder Scrolls 6 probably after I graduate."
         />
         <PictureCard
           title="Walking"

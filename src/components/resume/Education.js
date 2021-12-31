@@ -82,7 +82,7 @@ const Education = () => {
     ],
     [
       "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-491/index.html",
-      "491 Undergraduate Research Modeling Complex Social Systems",
+      "491 Undergraduate Research: Modeling Complex Social Systems",
     ],
     [
       "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-467-567/index.html",
@@ -116,12 +116,16 @@ const Education = () => {
       "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-271/index.html",
       "271 Object-Oriented Programming",
     ],
+    [
+      "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-201/index.html",
+      "201 Intro to Software Engineering",
+    ],
   ]);
 
   const staList = generateCourseList([
     [
       "https://bulletin.miamioh.edu/search/?search=STA+463",
-      "463: Regression Analysis",
+      "463 Regression Analysis",
     ],
     ["https://bulletin.miamioh.edu/search/?P=STA%20401", "401 Probability"],
     [
@@ -133,7 +137,7 @@ const Education = () => {
   const mthList = generateCourseList([
     [
       "https://bulletin.miamioh.edu/search/?search=MTH+447",
-      "447: Topics in Mathematical Finance",
+      "447 Topics in Mathematical Finance",
     ],
     [
       "https://bulletin.miamioh.edu/search/?P=MTH%20331",
@@ -181,13 +185,13 @@ const Education = () => {
       </Typography>
       <Grid item container justifyContent="space-between">
         <Typography variant="h6">Miami University</Typography>
-        <Typography variant="h6">August 2020 - May 2023</Typography>
+        <Typography variant="h6">August 2020 - May 2024</Typography>
       </Grid>
       <Typography component="div" variant="body1">
         <ul>
           <li>
-            B.S. in Computer Science, B.S. in Data Science and Statistics, Minor
-            in Mathematics
+            B.S. and M.S. in Computer Science, B.S. in Data Science and
+            Statistics, Minor in Mathematics
           </li>
           <li>GPA: 4.00</li>
           <li>

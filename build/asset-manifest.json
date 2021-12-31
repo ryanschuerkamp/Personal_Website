@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.22194bf2.chunk.js",
-    "main.js.map": "/static/js/main.22194bf2.chunk.js.map",
+    "main.js": "/static/js/main.63c70be6.chunk.js",
+    "main.js.map": "/static/js/main.63c70be6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8233b8b5.js",
     "runtime-main.js.map": "/static/js/runtime-main.8233b8b5.js.map",
     "static/js/2.dada113f.chunk.js": "/static/js/2.dada113f.chunk.js",
@@ -14,17 +14,17 @@
     "static/media/gaming.50a9379d.jpeg": "/static/media/gaming.50a9379d.jpeg",
     "static/media/iceCreamCake.a078e7d5.jpeg": "/static/media/iceCreamCake.a078e7d5.jpeg",
     "static/media/miamiUniversity.704b5a03.jpeg": "/static/media/miamiUniversity.704b5a03.jpeg",
-    "static/media/priorLake.8c2f9490.jpeg": "/static/media/priorLake.8c2f9490.jpeg",
+    "static/media/minnesota.8c2f9490.jpeg": "/static/media/minnesota.8c2f9490.jpeg",
     "static/media/profile_picture.99b59515.jpeg": "/static/media/profile_picture.99b59515.jpeg",
+    "static/media/project_assignment.dfa50b0a.png": "/static/media/project_assignment.dfa50b0a.png",
     "static/media/reading.63c56feb.jpeg": "/static/media/reading.63c56feb.jpeg",
     "static/media/songPopularity.6df96774.jpeg": "/static/media/songPopularity.6df96774.jpeg",
-    "static/media/tweetAnalysis.6fcf46d8.jpeg": "/static/media/tweetAnalysis.6fcf46d8.jpeg",
     "static/media/walking.69b76017.jpeg": "/static/media/walking.69b76017.jpeg",
     "static/media/weights.60d63465.jpeg": "/static/media/weights.60d63465.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.8233b8b5.js",
     "static/js/2.dada113f.chunk.js",
-    "static/js/main.22194bf2.chunk.js"
+    "static/js/main.63c70be6.chunk.js"
   ]
 }

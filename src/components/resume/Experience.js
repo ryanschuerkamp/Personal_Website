@@ -29,7 +29,7 @@ const Experience = () => {
     {
       title: "Software Engineer Intern",
       company: "Joot",
-      dates: "May 2021 – Present",
+      dates: "May 2021 – December 2021",
       accomplishments: [
         "Expanded marketing efforts by web scraping SEC website and Form ADVs using Python and Pandas to produce a list of important officials for all 14,000+ Registered Investment Advisers with over 99% accuracy",
         "Demonstrated Joot’s capabilities to potential clients by building and deploying an API with Node.js and Google Cloud to generate a list of recommended policies based on firm's CRD number",

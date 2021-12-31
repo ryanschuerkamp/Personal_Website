@@ -6,7 +6,7 @@ import Footer from "../Footer";
 import ProjectCard from "./ProjectCard";
 import causalLoopDiagram from "./images/causalLoopDiagram.jpeg";
 import songPopularityImage from "./images/songPopularity.jpeg";
-import twitterMisinformationImage from "./images/tweetAnalysis.jpeg";
+import projectAssignment from "./images/project_assignment.png";
 
 const Projects = (props) => {
   return (
@@ -24,12 +24,23 @@ const Projects = (props) => {
             <Divider />
             <ProjectCard
               title="CDC Suicide Causal Map"
-              date="October 2021 - Present"
+              date="October 2021 - December 2021"
               image={causalLoopDiagram}
               description={[
-                "Analyzing largest suicide causal map with over 360 nodes and 940 edges to understand interrelated factors contributing to suicide as part of CDC funded research using Python and NetworkX",
-                "Presenting differences between and analysis of 4 different suicide causal maps to panel of 5 CDC experts",
+                "Analyzed largest suicide causal map with over 360 nodes and 940 edges to understand interrelated factors contributing to suicide as part of CDC funded research using Python and NetworkX",
+                "Presented differences between and analysis of 4 different suicide causal maps to panel of 5 CDC experts",
               ]}
+            />
+            <ProjectCard
+              title="Stable Group Project Assignment Algorithm"
+              date="September 2021 - November 2021"
+              image={projectAssignment}
+              description={[
+                "Designed, implemented, and evaluated algorithm to assign students to projects based on students' preferences",
+                "Created a script to generate datasets containing students and their preferences using Python",
+                "Implemented a script to run the algorithm and a random algorithm to evaluate performance and run time of the algorithm leveraging Python and Matplotlib",
+              ]}
+              github="https://github.com/ryanschuerkamp/Stable-Group-Project-Assignment-Algorithm"
             />
             <ProjectCard
               title="Modeling Song Popularity"
@@ -40,17 +51,6 @@ const Projects = (props) => {
                 "Identified significant predictor variables for song popularity by fitting 4 regression models employing R",
                 "Selected an optimal model for predicting song popularity after implementing repeated cross-validation with R",
               ]}
-            />
-            <ProjectCard
-              title="Twitter Misinformation Analysis"
-              date="January 2021"
-              image={twitterMisinformationImage}
-              description={[
-                "Scraped 1000 tweets containing coronavirus vaccine misinformation using Python, Snscrape, and Twitter API",
-                "Discovered similarities and common themes between tweets leveraging Python and Pandas",
-                "Conveyed results using Matplotlib and provided visualizations for application teammates designed in React",
-              ]}
-              github="https://github.com/ryanschuerkamp/nwHacks2021"
             />
           </Grid>
         </Grid>
