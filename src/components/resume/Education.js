@@ -127,6 +127,10 @@ const Education = () => {
       "https://bulletin.miamioh.edu/search/?search=STA+463",
       "463 Regression Analysis",
     ],
+    [
+      "https://bulletin.miamioh.edu/search/?P=STA%20462",
+      "462 Inferential Statistics",
+    ],
     ["https://bulletin.miamioh.edu/search/?P=STA%20401", "401 Probability"],
     [
       "https://bulletin.miamioh.edu/search/?P=STA%20363",
