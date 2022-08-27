@@ -17,13 +17,13 @@ const renderSkillsOrHonors = (items) => {
 
 const SkillsAndHonors = () => {
   const skills = renderSkillsOrHonors([
-    "Proficient Programming Languages: Python, C++, Java, SQL, JavaScript, R",
-    "Other Technologies: Pandas, React, Node.js, MongoDB, Material-UI, Linux, Google Cloud, Git	",
+    "Proficient Programming Languages: Python, R, C++, SQL, JavaScript",
+    "Other Technologies: Pandas, React, Node.js, MongoDB, Material-UI, Linux, Google Cloud, AWS, Git",
   ]);
 
   const honorsAndAwards = renderSkillsOrHonors([
-    "Scholarships: Redhawk Excellence Scholarship (2020-2024), University Academic Scholars Scholarship (2020-2024), Bridges Program for Excellence Scholarship (2020-2024)",
-    "Academic Awards: President’s List (2021, 2020), National AP Scholar (2020), ACT Score: 35 (2018)",
+    "President’s List (all semesters), Redhawk Excellence Scholarship (2020-2024), University Academic Scholars Scholarship (2020-2024), Bridges Program for Excellence Scholarship (2020-2024)",
+    "Reviewer for BMC Medical Informatics and Decision Making, a Q1 Journal",
   ]);
 
   return (

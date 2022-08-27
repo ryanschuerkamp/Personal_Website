@@ -24,28 +24,27 @@ const Hobbies = () => {
         <PictureCard
           title="Cooking"
           picture={cookingPicture}
-          description="Initially, I was not the biggest fan of cooking, but now I love it. With practice and help from my family, I can now quickly cook healthy, delicious meals. At the moment, I am pretty good at grilling and cooking proteins. Over break, I want to learn how to cook more vegetables and carbs and make more complete meals."
+          description="Initially, I was not the biggest fan of cooking, but now I love it. With practice and help from my family, I can now quickly cook healthy, delicious meals. At the moment, I am pretty good at grilling and cooking proteins. I want to learn how to cook more elaborate, complex meals like paella."
         />
         <PictureCard
           title="Coding"
           picture={codingPicture}
-          description="Seeing what problems I can solve and what I can build through code, the logic and planning that goes into a well-designed solution, and learning technologies to tackle new problems are just a few of the reasons I love coding and computer science. Whether it is working on web applications, writing scripts, or building systems, I enjoy the process of problem-solving."
+          description="Seeing what problems I can solve and what I can build through code, the logic and planning that goes into a well-designed solution, and learning technologies to tackle new problems are just a few of the reasons I love coding and computer science. Whether it is writing scripts, building systems, or analyzing data, I enjoy the process of problem-solving."
         />
         <PictureCard
           title="Reading"
           picture={readingPicture}
-          description="Stoicism, behavioral economics, and psychology are just a few of the diverse subjects I recently explored. Some of my favorite books are The Black Swan by Nassim Nicholas Taleb, Thinking, Fast and Slow by Daniel Kahneman, and The Power of Habit by Charles Duhigg. Please reach out if you have any recommendations!"
+          description="Stoicism, behavioral economics, and psychology are a few of my favorite subjects other than my academic and career interests. Some of my favorite books are The Black Swan by Nassim Nicholas Taleb, Thinking, Fast and Slow by Daniel Kahneman, and The Power of Habit by Charles Duhigg. Recently, I enjoyed Goodbye, Things by Fumio Sasaki. Please reach out if you have any recommendations!"
         />
-
+        <PictureCard
+          title="Walking and Hiking"
+          picture={walkingPicture}
+          description="There is something so peaceful about walking or hiking, especially in nature. In Minnesota, I do not get to go for many walks when it is nice out, so I make the most of the opportunities I get. Lately, I've visited my family in Utah and gone on numerous breathtaking hikes. Both walking and hiking help me disconnect from work and school and return focused."
+        />
         <PictureCard
           title="Gaming"
           picture={gamingPicture}
-          description="I love playing both single and multiplayer games with or without friends. Recently, I loved Assassin’s Creed; Origins, Odyssey, and Valhalla were all great. Cyberpunk 2077 is also good now after all of the patches. I am thrilled for Dying Light 2 and Starfield to come out soon and Elder Scrolls 6 probably after I graduate."
-        />
-        <PictureCard
-          title="Walking"
-          picture={walkingPicture}
-          description="There is something so peaceful about throwing in earbuds and going for a walk, especially in nature. In Minnesota, I do not get to go for many walks when it is nice out, so I make the most of the opportunities I get. Going on walks is a beautiful thing that helps me disconnect from work and school momentarily and return focused."
+          description="I love playing both single and multiplayer games with or without friends. Recently, I have loved Assassin’s Creed; Origins, Odyssey, and Valhalla were all great. Cyberpunk 2077 is also good now after all of the patches. I am excited for Starfield to come out soon and Elder Scrolls 6, probably after I graduate."
         />
       </Grid>
     </>

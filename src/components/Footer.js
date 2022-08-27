@@ -12,7 +12,7 @@ import {
 import { makeStyles } from "@material-ui/styles";
 import { GitHub, LinkedIn, MailOutline } from "@material-ui/icons";
 
-import profilePicture from "./sidebar/profile_picture.jpeg";
+import profilePicture from "./sidebar/profilePicture.jpeg";
 
 const useStyles = makeStyles((theme) => ({
   profilePicture: {
@@ -64,29 +64,28 @@ const Footer = (props) => {
           <Typography style={{ marginTop: 10, marginBottom: 10 }} variant="h6">
             <Box fontWeight="fontWeightBold">About</Box>
           </Typography>
-          <Typography
-            align="center"
-            style={{ marginBottom: 20 }}
-            variant="body1"
-          >
-            Hi, I’m Ryan. I love solving challenging problems. I am a sophomore
-            at Miami University pursuing a B.S. and M.S. in Computer Science and
-            a B.S. in Data Science and Statistics. Last semester, I analyzed a
-            causal map of what makes adolescents commit suicide as part of
-            CDC-funded research. Last summer, I interned as a Software Engineer
-            at{" "}
+          <Typography style={{ marginBottom: 20 }} variant="body1">
+            Hi, I'm Ryan. I love solving challenging problems. I am a junior at
+            Miami University pursuing a B.S. and M.S. in Computer Science, a
+            B.S. in Data Science and Statistics, and a minor in Mathematics. I
+            interned as a Software Engineer at{" "}
             <Link href="https://joot.io/" target="_blank" rel="noopener">
               Joot
-            </Link>
-            , a fintech startup. This summer, I will be interning at{" "}
+            </Link>{" "}
+            and Quantitative Researcher at{" "}
             <Link
               href="https://www.artisanpartners.com/"
               target="_blank"
               rel="noopener"
             >
               Artisan Partners
-            </Link>{" "}
-            as a Trading Intern.
+            </Link>
+            . This semester, I am building a simulation model and platform for
+            the CDC, continuing my simulation research, starting two machine
+            learning and computer vision projects, and working on my master's
+            thesis proposal. After graduation, I plan on pursuing a Ph.D. in
+            Computer Science with a research focus in simulation or machine
+            learning.
           </Typography>
           <Button
             style={{ marginBottom: 35 }}

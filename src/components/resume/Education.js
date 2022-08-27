@@ -27,9 +27,12 @@ const generateCourseList = (courses) => {
   return courses.map((course) => {
     return (
       <li key={course[1]}>
-        <Link href={course[0]} target="_blank" rel="noopener">
-          {course[1]}
-        </Link>
+        {course[0].length > 0 && (
+          <Link href={course[0]} target="_blank" rel="noopener">
+            {course[1]}
+          </Link>
+        )}
+        {course[0].length === 0 && course[1]}
       </li>
     );
   });
@@ -81,12 +84,24 @@ const Education = () => {
       "620C Network Analysis and Modeling",
     ],
     [
+      "https://miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-488-588/index.html",
+      "588 Image Processing and Computer Vision",
+    ],
+    [
+      "https://miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-432-532/index.html",
+      "532 Machine Learning",
+    ],
+    [
       "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-491/index.html",
-      "491 Undergraduate Research: Modeling Complex Social Systems",
+      "491 Undergraduate Research",
     ],
     [
       "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-467-567/index.html",
       "467 Computer and Network Security",
+    ],
+    [
+      "https://miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-448/index.html",
+      "448 Senior Design Project I",
     ],
     [
       "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-385/index.html",
@@ -139,10 +154,8 @@ const Education = () => {
   ]);
 
   const mthList = generateCourseList([
-    [
-      "https://bulletin.miamioh.edu/search/?search=MTH+447",
-      "447 Topics in Mathematical Finance",
-    ],
+    ["", "433 Applied Linear Algebra"],
+    ["https://bulletin.miamioh.edu/search/?P=MTH%20432", "432 Optimization"],
     [
       "https://bulletin.miamioh.edu/search/?P=MTH%20331",
       "331 Proof: Introduction to Higher Mathematics",
