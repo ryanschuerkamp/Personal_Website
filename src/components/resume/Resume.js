@@ -1,5 +1,12 @@
 import React from "react";
-import { Grid, Typography, Hidden, Divider, Link } from "@material-ui/core";
+import {
+  Grid,
+  Typography,
+  Hidden,
+  Divider,
+  Link,
+  Box,
+} from "@material-ui/core";
 
 import Sidebar from "../sidebar/Sidebar";
 import Footer from "../Footer";
@@ -29,6 +36,89 @@ const Resume = () => {
             <Education />
             <Divider />
             <Experience />
+            <Divider />
+            <Typography style={{ marginTop: 10 }} variant="h4">
+              Publications
+            </Typography>
+            <ul>
+              <li>
+                <Typography variant="body1">
+                  In Preparation:{" "}
+                  <Box sx={{ fontWeight: "bold", display: "inline" }}>
+                    Ryan Schuerkamp
+                  </Box>
+                  , Jared Barrett, Amber Bales, Alia Wegner, Philippe J.
+                  Giabbanelli. Object Detection for Gender Recognition in
+                  Historical Postcards.
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  Submitted November 2022 and under review: Benjamin D.
+                  Maldonado,{" "}
+                  <Box sx={{ fontWeight: "bold", display: "inline" }}>
+                    Ryan Schuerkamp
+                  </Box>
+                  , Cassidy M. Martin, Ketra L. Rice, Nisha Nataraj, Margaret M.
+                  Brown, Christopher R. Harper, Curtis Florence, and Philippe J.
+                  Giabbanelli. Guiding Prevention Initiatives by Applying
+                  Network Analysis to Causal Maps of Adverse Childhood
+                  Experiences and Adolescent Suicide.
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  Submitted November 2022 and under review:{" "}
+                  <Box sx={{ fontWeight: "bold", display: "inline" }}>
+                    Ryan Schuerkamp
+                  </Box>
+                  , Nicolas Daclin, Philippe J. Giabbanelli. Facilitating the
+                  Interoperability and Reuse of Extensions of Fuzzy Cognitive
+                  Maps.
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  Submitted May 2022 and under review:{" "}
+                  <Box sx={{ fontWeight: "bold", display: "inline" }}>
+                    Ryan Schuerkamp
+                  </Box>{" "}
+                  and Phillipe J. Giabbanelli. Extensions of Fuzzy Cognitive
+                  Maps: A Systematic Review.
+                </Typography>
+              </li>
+            </ul>
+            <Divider />
+            <Typography style={{ marginTop: 10 }} variant="h4">
+              References
+            </Typography>
+            <ul>
+              <li>
+                <Typography variant="body1">
+                  Dr. Philippe J. Giabbanelli, Associate Professor at Miami
+                  University. Email:{" "}
+                  <Link
+                    href="mailto:giabbapj@miamioh.edu"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    giabbapj@miamioh.edu
+                  </Link>
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  Dr. John Femiani, Professor at Miami University. Email:{" "}
+                  <Link
+                    href="mailto:femianjc@miamioh.edu"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    femianjc@miamioh.edu
+                  </Link>
+                </Typography>
+              </li>
+            </ul>
             <Divider />
             <SkillsAndHonors />
           </Grid>

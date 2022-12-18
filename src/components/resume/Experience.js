@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Grid } from "@material-ui/core";
+import { Typography, Grid, Divider } from "@material-ui/core";
 
 const renderExperiences = (experiences) => {
   return experiences.map((experience, index) => {
@@ -25,7 +25,39 @@ const renderExperiences = (experiences) => {
 };
 
 const Experience = () => {
-  const experiences = renderExperiences([
+  const research_experiences = renderExperiences([
+    {
+      title: "Research Assistant",
+      company: "Miami University",
+      dates: "October 2021 – Present",
+      accomplishments: [
+        "Building simulation platform for the CDC to assess interventions to prevent adolescent suicide",
+        "Applying computer vision and machine learning algorithms to analyze over 700 GB of historical postcards as an interdisciplinary collaboration between the university library and the computer science department",
+        "Created and implemented algorithms to enable interoperability of simulation models in partnership with the School of Mines in Ales (IMT Mines Ales, France) leveraging Python and NetworkX",
+        "Performed and submitted (currently under review) a systematic review of 22 extensions of Fuzzy Cognitive Maps, their features, operationalization, strengths and weaknesses, potential use cases, and maturity",
+        "Discovered factors driving adolescent suicide as part of CDC-funded research by analyzing the largest suicide causal map with over 360 nodes and 940 edges using Python and NetworkX",
+      ],
+    },
+    {
+      title: "Undergraduate Research Assistant",
+      company: "Miami University",
+      dates: "October 2020 – May 2021",
+      accomplishments: [
+        "Performed feature extraction on over 100 GB of network traffic utilizing Python, Pandas, Scapy, and Miami University’s high-performance computing cluster",
+        "Distinguished botnet from non-botnet traffic with high sensitivity (0.93 on a quality scale of 1.0) on a subset of network traffic employing Scikit-learn, Python, and Pandas",
+      ],
+    },
+  ]);
+
+  const industry_experiences = renderExperiences([
+    {
+      title: "Quantitative Research Intern",
+      company: "Artisan Partners",
+      dates: "December 2022 – January 2023",
+      accomplishments: [
+        "Applying natural language processing and machine learning to improve news recommendation system leveraging Python, SageMaker, and Hugging Face",
+      ],
+    },
     {
       title: "Quantitative Research Intern",
       company: "Artisan Partners",
@@ -52,9 +84,14 @@ const Experience = () => {
   return (
     <>
       <Typography style={{ marginTop: 10 }} variant="h4">
-        Experience
+        Research Experience
       </Typography>
-      {experiences}
+      {research_experiences}
+      <Divider />
+      <Typography style={{ marginTop: 10 }} variant="h4">
+        Industry Experience
+      </Typography>
+      {industry_experiences}
     </>
   );
 };

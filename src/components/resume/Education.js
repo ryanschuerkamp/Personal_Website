@@ -80,6 +80,14 @@ const Education = () => {
 
   const cseList = generateCourseList([
     [
+      "https://miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-700/index.html",
+      "700 Research for Master's Thesis",
+    ],
+    [
+      "https://miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-627/index.html",
+      "627 Machine Learning",
+    ],
+    [
       "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-620/index.html",
       "620C Network Analysis and Modeling",
     ],
@@ -98,6 +106,10 @@ const Education = () => {
     [
       "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-467-567/index.html",
       "467 Computer and Network Security",
+    ],
+    [
+      "https://miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-449/index.html",
+      "449 Senior Design Project II",
     ],
     [
       "https://miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-448/index.html",
@@ -139,6 +151,18 @@ const Education = () => {
 
   const staList = generateCourseList([
     [
+      "https://bulletin.miamioh.edu/search/?P=STA%20467",
+      "567 Statistical Learning",
+    ],
+    [
+      "https://bulletin.miamioh.edu/search/?P=STA%20483",
+      "483 Analysis of Forecasting Systems",
+    ],
+    [
+      "https://bulletin.miamioh.edu/search/?P=STA%20466",
+      "466 Experimental Design Methods",
+    ],
+    [
       "https://bulletin.miamioh.edu/search/?search=STA+463",
       "463 Regression Analysis",
     ],
@@ -155,7 +179,6 @@ const Education = () => {
 
   const mthList = generateCourseList([
     ["", "433 Applied Linear Algebra"],
-    ["https://bulletin.miamioh.edu/search/?P=MTH%20432", "432 Optimization"],
     [
       "https://bulletin.miamioh.edu/search/?P=MTH%20331",
       "331 Proof: Introduction to Higher Mathematics",
@@ -210,10 +233,12 @@ const Education = () => {
             B.S. and M.S. in Computer Science, B.S. in Data Science and
             Statistics, Minor in Mathematics
           </li>
-          <li>GPA: 4.00</li>
           <li>
-            University Honors Program and Computing and Engineering Scholar
+            Thesis: Extensions and Aggregation Algorithms for Fuzzy Cognitive
+            Maps
           </li>
+          <li>GPA: 4.00</li>
+          <li>Honors College and Computing and Engineering Scholar</li>
           <li>Relevant Courses:</li>
           <ul>
             <li>Computer Science (CSE) {cseButton}</li>

@@ -80,12 +80,11 @@ const Footer = (props) => {
             >
               Artisan Partners
             </Link>
-            . This semester, I am building a simulation model and platform for
-            the CDC, continuing my simulation research, starting two machine
-            learning and computer vision projects, and working on my master's
-            thesis proposal. After graduation, I plan on pursuing a Ph.D. in
-            Computer Science with a research focus in simulation or machine
-            learning.
+            . I have a love for and demonstrated commitment to research, three
+            research articles under review, and will submit several more
+            articles in the coming months. After graduation, I plan on pursuing
+            a Ph.D. in Computer Science with a research focus on simulation or
+            machine learning.
           </Typography>
           <Button
             style={{ marginBottom: 35 }}
