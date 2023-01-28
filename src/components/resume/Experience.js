@@ -32,8 +32,8 @@ const Experience = () => {
       dates: "October 2021 – Present",
       accomplishments: [
         "Building simulation platform for the CDC to assess interventions to prevent adolescent suicide",
-        "Applying computer vision and machine learning algorithms to analyze over 700 GB of historical postcards as an interdisciplinary collaboration between the university library and the computer science department",
-        "Created and implemented algorithms to enable interoperability of simulation models in partnership with the School of Mines in Ales (IMT Mines Ales, France) leveraging Python and NetworkX",
+        "Applied transfer learning and deep learning-based object detection model to detect gender in over 700 GB of historical postcards with a precision of 93% or higher leveraging Python, Pandas, and OpenCV",
+        "Created and implemented 26 algorithms to enable interoperability of simulation models in partnership with the School of Mines in Ales (IMT Mines Ales, France) employing Python and NetworkX",
         "Performed and submitted (currently under review) a systematic review of 22 extensions of Fuzzy Cognitive Maps, their features, operationalization, strengths and weaknesses, potential use cases, and maturity",
         "Discovered factors driving adolescent suicide as part of CDC-funded research by analyzing the largest suicide causal map with over 360 nodes and 940 edges using Python and NetworkX",
       ],
@@ -55,7 +55,8 @@ const Experience = () => {
       company: "Artisan Partners",
       dates: "December 2022 – January 2023",
       accomplishments: [
-        "Applying natural language processing and machine learning to improve news recommendation system leveraging Python, SageMaker, and Hugging Face",
+        "Applied natural language processing (sentiment analysis and tagging) algorithms to extract features from 1,000s of news articles daily employing Python, AWS SageMaker, Hugging Face, and Snowflake",
+        "Constructed machine learning pipeline to predict relevance for 1,000s of articles a day utilizing Python, Pandas, Scikit-learn, Snowflake, and AWS SageMaker, saving analysts and portfolio managers hours a day",
       ],
     },
     {

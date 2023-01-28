@@ -27,9 +27,8 @@ const Projects = (props) => {
               date="January 2022 - May 2022"
               image={fcmFigure}
               description={[
-                "Conducted a systematic review of 189 research papers to aggregate new simulation models",
-                "Empowered researchers to reuse existing models by examining 22 extensions of fuzzy cognitive maps proposed in the last decade, their features, operationalization, strengths and weaknesses, potential use cases, and maturity",
-                "Submitted a 30-page article to a top-three computer science review journal",
+                "Performed and submitted (currently under review) a systematic review of 22 extensions of Fuzzy Cognitive Maps, their features, operationalization, strengths and weaknesses, potential use cases, and maturity",
+                "Submitted May 2022 and under review: Ryan Schuerkamp and Phillipe J. Giabbanelli. Extensions of Fuzzy Cognitive Maps: A Systematic Review.",
               ]}
             />
             <ProjectCard
@@ -37,9 +36,9 @@ const Projects = (props) => {
               date="October 2021 - December 2021"
               image={causalLoopDiagram}
               description={[
-                "Discovered factors driving adolescent suicide as part of CDC funded research by analyzing the largest suicide causal map with over 360 nodes and 940 edges using Python and NetworkX",
+                "Discovered factors driving adolescent suicide as part of CDC-funded research by analyzing the largest suicide causal map with over 360 nodes and 940 edges using Python and NetworkX",
                 "Presented differences between and analysis of 4 different suicide causal maps to panel of 5 CDC experts",
-                "Submitted research article for CDC approval",
+                "Submitted November 2022 and under review: Benjamin D. Maldonado, Ryan Schuerkamp, Cassidy M. Martin, Ketra L. Rice, Nisha Nataraj, Margaret M. Brown, Christopher R. Harper, Curtis Florence, and Philippe J. Giabbanelli. Guiding Prevention Initiatives by Applying Network  Analysis to Causal Maps of Adverse Childhood Experiences and Adolescent Suicide.",
               ]}
             />
             <ProjectCard

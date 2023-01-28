@@ -170,6 +170,10 @@ const Education = () => {
       "https://bulletin.miamioh.edu/search/?P=STA%20462",
       "462 Inferential Statistics",
     ],
+    [
+      "https://miamioh.edu/academics/bulletin/archives/2012-2013/sta-404504-visualizing-information-3.htm",
+      "404 Visualizing Information",
+    ],
     ["https://bulletin.miamioh.edu/search/?P=STA%20401", "401 Probability"],
     [
       "https://bulletin.miamioh.edu/search/?P=STA%20363",

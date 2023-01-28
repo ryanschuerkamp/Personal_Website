@@ -120,6 +120,34 @@ const Resume = () => {
               </li>
             </ul>
             <Divider />
+            <Typography style={{ marginTop: 10 }} variant="h4">
+              Professional Service
+            </Typography>
+            <ul>
+              <li>
+                <Typography variant="body1">
+                  Reviewer for BMC Medical Informatics and Decision Making, a Q1
+                  Journal
+                </Typography>
+              </li>
+            </ul>
+            <Divider />
+            <Typography style={{ marginTop: 10 }} variant="h4">
+              Professional Memberships
+            </Typography>
+            <ul>
+              <li>
+                <Typography variant="body1">
+                  Association for Computing Machinery (ACM)
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  Society for Industrial and Applied Mathematics (SIAM)
+                </Typography>
+              </li>
+            </ul>
+            <Divider />
             <SkillsAndHonors />
           </Grid>
         </Grid>
