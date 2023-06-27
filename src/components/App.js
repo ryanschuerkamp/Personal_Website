@@ -13,7 +13,7 @@ import {
 import { ThemeProvider } from "@material-ui/core/styles";
 import { Brightness4, Brightness7 } from "@material-ui/icons";
 
-import AboutSite from "./AboutSite";
+import Home from "./Home";
 import AboutMe from "./aboutMe/AboutMe";
 import Resume from "./resume/Resume";
 import Projects from "./projects/Projects";
@@ -33,42 +33,55 @@ export default function App() {
               render={({ location }) => (
                 <>
                   <AppBar position="static">
-                    <Toolbar>
-                      <Tabs value={location.pathname}>
-                        <Tab label="Home" value="/" component={Link} to="/" />
-                        <Tab
-                          label="About"
-                          value="/about"
-                          component={Link}
-                          to="/about"
-                        />
-                        <Tab
-                          value="/resume"
-                          label="Resume"
-                          component={Link}
-                          to="/resume"
-                        />
-                        <Tab
-                          value="/projects"
-                          label="Projects"
-                          component={Link}
-                          to="/projects"
-                        />
-                      </Tabs>
-                      <IconButton
-                        color="secondary"
-                        onClick={() => setDarkMode(!darkMode)}
-                      >
-                        {darkMode ? <Brightness7 /> : <Brightness4 />}
-                      </IconButton>
-                    </Toolbar>
+                    <Grid item container>
+                      <Grid item xs={0} lg={1} />
+                      <Grid item xs={12} lg={11}>
+                        <Toolbar>
+                          <Tabs value={location.pathname}>
+                            <Tab
+                              label="Ryan Schuerkamp"
+                              value="/"
+                              component={Link}
+                              style={{ marginRight: "auto" }}
+                              to="/"
+                            />
+                            <Tab
+                              value="/resume"
+                              label="CV"
+                              component={Link}
+                              to="/resume"
+                            />
+                            <Tab
+                              label="Personal"
+                              value="/about"
+                              component={Link}
+                              to="/about"
+                            />
+                            <Tab
+                              value="/projects"
+                              label="Publications"
+                              component={Link}
+                              to="/projects"
+                            />
+                          </Tabs>
+                          <IconButton
+                            color="secondary"
+                            // style={{ marginLeft: "auto" }}
+                            onClick={() => setDarkMode(!darkMode)}
+                          >
+                            {darkMode ? <Brightness7 /> : <Brightness4 />}
+                          </IconButton>
+                        </Toolbar>
+                      </Grid>
+                      <Grid item xs={0} lg={1} />
+                    </Grid>
                   </AppBar>
 
                   <Switch>
                     <Route path="/about" exact render={() => <AboutMe />} />
                     <Route path="/resume" exact render={() => <Resume />} />
                     <Route path="/projects" exact render={() => <Projects />} />
-                    <Route path="/" render={() => <AboutSite />} />
+                    <Route path="/" render={() => <Home />} />
                   </Switch>
                 </>
               )}
