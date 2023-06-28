@@ -14,7 +14,7 @@ import Education from "./Education";
 import Experience from "./Experience";
 import SkillsAndHonors from "./SkillsAndHonors";
 
-const Resume = () => {
+const CV = () => {
   return (
     <Grid container>
       <Hidden mdDown={true}>
@@ -160,4 +160,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default CV;

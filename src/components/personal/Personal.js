@@ -6,7 +6,7 @@ import Footer from "../Footer";
 import Hobbies from "./Hobbies";
 import Background from "./Background";
 
-const AboutMe = () => {
+const Personal = () => {
   return (
     <Grid container>
       <Hidden mdDown={true}>
@@ -18,8 +18,6 @@ const AboutMe = () => {
         <Grid item container>
           <Grid item xs={2} sm={3} md={1} lg={false} />
           <Grid item xs={9} sm={7} md={10} lg={11}>
-            <Typography variant="h1">About Me</Typography>
-            <Divider />
             <Background />
             <Divider />
             <Hobbies />
@@ -34,4 +32,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default Personal;

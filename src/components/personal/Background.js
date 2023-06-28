@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Typography } from "@material-ui/core";
+import { Grid, Typography, Divider } from "@material-ui/core";
 
 import PictureCard from "./PictureCard";
 
@@ -10,9 +10,10 @@ import iceCreamPicture from "./images/iceCreamCake.jpeg";
 const Background = () => {
   return (
     <>
-      <Typography style={{ marginBottom: 10, marginTop: 10 }} variant="h3">
+      <Typography style={{ marginBottom: 10, marginTop: 10 }} variant="h2">
         Background
       </Typography>
+      <Divider style={{ marginBottom: 10 }} />
       <Grid container>
         <PictureCard
           title="From Minnesota"
@@ -27,7 +28,7 @@ const Background = () => {
         <PictureCard
           title="Fun Fact"
           picture={iceCreamPicture}
-          description="The last time I had ice cream or sweets was my 16th birthday. After that, I got into working out and eating healthy. Sweets every once in a while would make no impact on my health, but it has already been over four years, so I forget what I am missing and want to keep the streak alive."
+          description="The last time I had ice cream or sweets was my 16th birthday. After that, I got into working out and eating healthy. Sweets every once in a while would make no impact on my health, but it has already been over five years, so I forget what I am missing and want to keep the streak alive."
         />
       </Grid>
     </>

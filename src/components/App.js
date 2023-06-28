@@ -14,9 +14,9 @@ import { ThemeProvider } from "@material-ui/core/styles";
 import { Brightness4, Brightness7 } from "@material-ui/icons";
 
 import Home from "./Home";
-import AboutMe from "./aboutMe/AboutMe";
-import Resume from "./resume/Resume";
-import Projects from "./projects/Projects";
+import Personal from "./personal/Personal";
+import CV from "./cv/CV";
+import Papers from "./Papers";
 import { lightTheme, darkTheme } from "./Themes";
 
 export default function App() {
@@ -46,22 +46,22 @@ export default function App() {
                               to="/"
                             />
                             <Tab
-                              value="/resume"
+                              value="/cv"
                               label="CV"
                               component={Link}
-                              to="/resume"
+                              to="/cv"
+                            />
+                            <Tab
+                              value="/papers"
+                              label="Papers"
+                              component={Link}
+                              to="/papers"
                             />
                             <Tab
                               label="Personal"
-                              value="/about"
+                              value="/personal"
                               component={Link}
-                              to="/about"
-                            />
-                            <Tab
-                              value="/projects"
-                              label="Publications"
-                              component={Link}
-                              to="/projects"
+                              to="/personal"
                             />
                           </Tabs>
                           <IconButton
@@ -78,9 +78,9 @@ export default function App() {
                   </AppBar>
 
                   <Switch>
-                    <Route path="/about" exact render={() => <AboutMe />} />
-                    <Route path="/resume" exact render={() => <Resume />} />
-                    <Route path="/projects" exact render={() => <Projects />} />
+                    <Route path="/cv" exact render={() => <CV />} />
+                    <Route path="/papers" exact render={() => <Papers />} />
+                    <Route path="/personal" exact render={() => <Personal />} />
                     <Route path="/" render={() => <Home />} />
                   </Switch>
                 </>

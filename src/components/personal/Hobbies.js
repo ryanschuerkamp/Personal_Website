@@ -12,7 +12,7 @@ import walkingPicture from "./images/walking.jpeg";
 const Hobbies = () => {
   return (
     <>
-      <Typography style={{ marginBottom: 10, marginTop: 10 }} variant="h3">
+      <Typography style={{ marginBottom: 10, marginTop: 10 }} variant="h2">
         Hobbies
       </Typography>
       <Grid container>

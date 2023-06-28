@@ -52,7 +52,7 @@ const Footer = (props) => {
             className={classes.profilePicture}
             src={profilePicture}
           />
-          <Typography display="block" variant="h3" style={{ marginBottom: 10 }}>
+          <Typography display="block" variant="h4" style={{ marginBottom: 10 }}>
             <Box fontWeight="fontWeightBold">Ryan Schuerkamp</Box>
           </Typography>
         </Grid>

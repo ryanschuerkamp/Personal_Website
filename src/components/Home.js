@@ -17,7 +17,12 @@ const Home = () => {
         <Grid item container>
           <Grid item xs={1} lg={false} />
           <Grid item xs={10} lg={11}>
-            <Typography variant="h2">About Me</Typography>
+            <Typography
+              style={{ marginBottom: 10, marginTop: 10 }}
+              variant="h2"
+            >
+              About Me
+            </Typography>
             <Divider />
             <Typography
               style={{ marginTop: 10, marginBottom: 20 }}
@@ -38,6 +43,15 @@ const Home = () => {
                 </li>
                 <li>Machine learning for healthcare.</li>
               </ol>
+              As a result of these three research areas, I am interested in
+              trustworthy machine learning (interpretable, robust, and fair) and
+              its healthcare applications. I plan on joining a Ph.D. program
+              starting in the fall of 2024 to pursue these interests.
+            </Typography>
+            <Typography
+              style={{ marginTop: 10, marginBottom: 20 }}
+              variant="h5"
+            >
               At Miami, I am advised by{" "}
               <Link
                 href="https://miamioh.edu/profiles/cec/philippe-giabbanelli.html"
@@ -74,19 +88,24 @@ const Home = () => {
             </Typography>
 
             <Typography style={{ marginBottom: 20 }} variant="h5">
-              I am interested in trustworthy machine learning (interpretable,
-              robust, and fair) and its healthcare applications. I plan on
-              joining a Ph.D. program starting in the fall of 2024 to pursue
-              these interests. Outside of work, I enjoy working out, cooking,
-              hiking, and other hobbies, which you can read about on my Personal
-              page.
+              Outside of work, I enjoy working out, cooking, hiking, and other
+              hobbies, which you can read about on my{" "}
+              <Link href="./personal" target="_blank" rel="noopener">
+                Personal page
+              </Link>
+              .
             </Typography>
             <Typography style={{ marginBottom: 20 }} variant="h5">
               Please feel free to get in touch. My email is schuerr2 at miamioh
               dot edu.
             </Typography>
             <Divider />
-            <Typography variant="h3">About This Site</Typography>
+            <Typography
+              style={{ marginBottom: 10, marginTop: 10 }}
+              variant="h2"
+            >
+              About This Site
+            </Typography>
             <Typography
               variant="h5"
               style={{ marginTop: 10, marginBottom: 20 }}
