@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid, Typography, Hidden, Divider, Link } from "@material-ui/core";
+import { Link as RouterLink } from "react-router-dom";
 
 import Sidebar from "./sidebar/Sidebar";
 import Footer from "./Footer";
@@ -91,7 +92,12 @@ const Home = () => {
             <Typography style={{ marginBottom: 20 }} variant="h5">
               Outside of work, I enjoy working out, cooking, hiking, and other
               hobbies, which you can read about on my{" "}
-              <Link href="./personal" target="_blank" rel="noopener">
+              <Link
+                to="./personal"
+                target="_blank"
+                rel="noopener"
+                component={RouterLink}
+              >
                 Personal page
               </Link>
               .

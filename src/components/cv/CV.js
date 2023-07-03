@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid, Typography, Hidden, Divider, Link } from "@material-ui/core";
+import { Link as RouterLink } from "react-router-dom";
 
 import Sidebar from "../sidebar/Sidebar";
 import Footer from "../Footer";
@@ -37,7 +38,12 @@ const CV = () => {
             </Typography>
             <Typography style={{ marginBottom: 20 }} variant="body1">
               See the{" "}
-              <Link href="./papers" target="_blank" rel="noopener">
+              <Link
+                to="./papers"
+                component={RouterLink}
+                target="_blank"
+                rel="noopener"
+              >
                 Papers page
               </Link>
               .
