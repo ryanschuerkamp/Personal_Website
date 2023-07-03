@@ -88,12 +88,14 @@ const publishedAcceptedPapers = generatePaperList([
     ],
     venueYear:
       "Computational Modeling of Social Processes and Social Networks, special issue of Computers, 2023",
+    paperLink: "https://www.mdpi.com/2073-431X/12/7/132",
   },
   {
     title:
       "Facilitating the Interoperability and Reuse of Extensions of Fuzzy Cognitive Maps",
     authors: ["R. Schuerkamp, ", "P. J. Giabbanelli, ", "N. Daclin"],
     venueYear: "Annual Modeling And Simulation Conference (ANNSIM), 2023",
+    paperLink: "https://ieeexplore.ieee.org/abstract/document/10155381",
     codeLink: "https://osf.io/n4cvg/",
   },
   {
@@ -218,8 +220,8 @@ const Papers = () => {
               learning (interpretable, robust, and fair), and their healthcare
               applications. I plan on joining a Ph.D. program starting in the
               fall of 2024 to pursue these interests. If you are interested in
-              discussing research, please feel email me at schuerr2 at miamioh
-              dot edu.
+              discussing research, please feel free to email me at schuerr2 at
+              miamioh dot edu.
             </Typography>
             <Typography
               style={{ marginTop: 10, marginBottom: 10 }}

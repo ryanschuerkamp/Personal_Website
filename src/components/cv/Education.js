@@ -228,22 +228,41 @@ const Education = () => {
         Education
       </Typography>
       <Grid item container justifyContent="space-between">
-        <Typography variant="h6">Miami University</Typography>
-        <Typography variant="h6">August 2020 - May 2024</Typography>
+        <Typography variant="h5">Miami University</Typography>
+        <Typography variant="body1">
+          <i>August 2020 - May 2024</i>
+        </Typography>
+      </Grid>
+      <Grid item container justifyContent="space-between">
+        <Typography variant="body1">
+          <b>
+            B.S. & M.S. in Computer Science, B.S. in Data Science and
+            Statistics, Mathematics Minor
+          </b>
+        </Typography>
+        <Typography variant="body1">
+          <i>GPA: 4.00</i>
+        </Typography>
       </Grid>
       <Typography component="div" variant="body1">
         <ul>
           <li>
-            B.S. and M.S. in Computer Science, B.S. in Data Science and
-            Statistics, Minor in Mathematics
-          </li>
-          <li>
             Thesis: Extensions and Aggregation Algorithms for Fuzzy Cognitive
             Maps
           </li>
-          <li>GPA: 4.00</li>
-          <li>Honors College and Computing and Engineering Scholar</li>
-          <li>Relevant Courses:</li>
+          <li>
+            President’s List (all semesters, awarded to top 3% of students),
+            Honors College, and Computing and Engineering Scholar
+          </li>
+          <li>
+            Relevant Graduate Courses: Machine Learning, Statistical Learning,
+            Computer Vision, Network Science
+          </li>
+          <li>
+            Relevant Undergraduate Courses: Linear Algebra, Probability, Proofs,
+            Calculus 3, Regression, Inferential Statistics
+          </li>
+          <li>All Computer Science, Mathematics, and Statistics Courses:</li>
           <ul>
             <li>Computer Science (CSE) {cseButton}</li>
           </ul>

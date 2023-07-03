@@ -1,5 +1,4 @@
 import React from "react";
-import { Link as RouterLink } from "react-router-dom";
 import { Grid, Typography, Hidden, Divider, Link } from "@material-ui/core";
 
 import Sidebar from "./sidebar/Sidebar";

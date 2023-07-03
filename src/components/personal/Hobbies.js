@@ -24,7 +24,7 @@ const Hobbies = () => {
         <PictureCard
           title="Cooking"
           picture={cookingPicture}
-          description="Initially, I was not the biggest fan of cooking, but now I love it. With practice and help from my family, I can now quickly cook healthy, delicious meals. At the moment, I am pretty good at grilling and cooking proteins. I want to learn how to cook more elaborate, complex meals like paella."
+          description="Initially, I was not the biggest fan of cooking, but now I love it. With practice and help from my family, I can now quickly cook healthy, delicious meals. At the moment, I am pretty good at grilling and cooking proteins, but I want to learn how to cook more elaborate, complex meals like paella."
         />
         <PictureCard
           title="Coding"

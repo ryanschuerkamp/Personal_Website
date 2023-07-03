@@ -1,18 +1,10 @@
 import React from "react";
-import {
-  Grid,
-  Typography,
-  Hidden,
-  Divider,
-  Link,
-  Box,
-} from "@material-ui/core";
+import { Grid, Typography, Hidden, Divider, Link } from "@material-ui/core";
 
 import Sidebar from "../sidebar/Sidebar";
 import Footer from "../Footer";
 import Education from "./Education";
 import Experience from "./Experience";
-import SkillsAndHonors from "./SkillsAndHonors";
 
 const CV = () => {
   return (
@@ -26,7 +18,12 @@ const CV = () => {
         <Grid item container>
           <Grid item xs={1} lg={false} />
           <Grid item xs={10} lg={12}>
-            <Typography variant="h1">Resume</Typography>
+            <Typography
+              style={{ marginBottom: 10, marginTop: 10 }}
+              variant="h2"
+            >
+              CV
+            </Typography>
             <Typography variant="subtitle1">
               <Link href="mailto:schuerr2@miamioh.edu">
                 Email me for current PDF version
@@ -35,99 +32,123 @@ const CV = () => {
             <Divider />
             <Education />
             <Divider />
-            <Experience />
-            <Divider />
             <Typography style={{ marginTop: 10 }} variant="h4">
               Publications
             </Typography>
-            <ul>
-              <li>
-                <Typography variant="body1">
-                  In Preparation:{" "}
-                  <Box sx={{ fontWeight: "bold", display: "inline" }}>
-                    Ryan Schuerkamp
-                  </Box>
-                  , Jared Barrett, Amber Bales, Alia Wegner, Philippe J.
-                  Giabbanelli. Object Detection for Gender Recognition in
-                  Historical Postcards.
-                </Typography>
-              </li>
-              <li>
-                <Typography variant="body1">
-                  Submitted November 2022 and under review: Benjamin D.
-                  Maldonado,{" "}
-                  <Box sx={{ fontWeight: "bold", display: "inline" }}>
-                    Ryan Schuerkamp
-                  </Box>
-                  , Cassidy M. Martin, Ketra L. Rice, Nisha Nataraj, Margaret M.
-                  Brown, Christopher R. Harper, Curtis Florence, and Philippe J.
-                  Giabbanelli. Guiding Prevention Initiatives by Applying
-                  Network Analysis to Causal Maps of Adverse Childhood
-                  Experiences and Adolescent Suicide.
-                </Typography>
-              </li>
-              <li>
-                <Typography variant="body1">
-                  Submitted November 2022 and under review:{" "}
-                  <Box sx={{ fontWeight: "bold", display: "inline" }}>
-                    Ryan Schuerkamp
-                  </Box>
-                  , Nicolas Daclin, Philippe J. Giabbanelli. Facilitating the
-                  Interoperability and Reuse of Extensions of Fuzzy Cognitive
-                  Maps.
-                </Typography>
-              </li>
-              <li>
-                <Typography variant="body1">
-                  Submitted May 2022 and under review:{" "}
-                  <Box sx={{ fontWeight: "bold", display: "inline" }}>
-                    Ryan Schuerkamp
-                  </Box>{" "}
-                  and Phillipe J. Giabbanelli. Extensions of Fuzzy Cognitive
-                  Maps: A Systematic Review.
-                </Typography>
-              </li>
-            </ul>
+            <Typography style={{ marginBottom: 20 }} variant="body1">
+              See the{" "}
+              <Link href="./papers" target="_blank" rel="noopener">
+                Papers page
+              </Link>
+              .
+            </Typography>
             <Divider />
             <Typography style={{ marginTop: 10 }} variant="h4">
-              References
+              Presentations
             </Typography>
             <ul>
               <li>
                 <Typography variant="body1">
-                  Dr. Philippe J. Giabbanelli, Associate Professor at Miami
-                  University. Email:{" "}
-                  <Link
-                    href="mailto:giabbapj@miamioh.edu"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    giabbapj@miamioh.edu
-                  </Link>
+                  <b>R. Schuerkamp</b>.{" "}
+                  <i>
+                    Facilitating the Interoperability and Reuse of Extensions of
+                    Fuzzy Cognitive Maps
+                  </i>
+                  . Oral Presentation at Annual Modeling and Simulation
+                  Conference (ANNSIM); May 2023; Hamilton ON, Canada
                 </Typography>
               </li>
               <li>
+                {" "}
                 <Typography variant="body1">
-                  Dr. John Femiani, Professor at Miami University. Email:{" "}
-                  <Link
-                    href="mailto:femianjc@miamioh.edu"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    femianjc@miamioh.edu
-                  </Link>
+                  <b>R. Schuerkamp</b>.{" "}
+                  <i>
+                    Which Aspects of Complexity Matter? Navigating the Many
+                    Options to Model Socio-environmental Systems
+                  </i>
+                  . Oral Presentation at Miami University Graduate Research
+                  Forum; November 2022; Oxford, OH{" "}
+                </Typography>
+              </li>
+              <li>
+                {" "}
+                <Typography variant="body1">
+                  <b>R. Schuerkamp</b>, T. Deep, N. Hoang.{" "}
+                  <i>
+                    Internet of Things Botnet Detection Using Network Flow
+                    Analysis
+                  </i>
+                  . Poster Presentation at Miami University Undergraduate
+                  Research Forum; April 2021; Oxford, OH{" "}
                 </Typography>
               </li>
             </ul>
             <Divider />
+            <Experience />
+            <Divider />
             <Typography style={{ marginTop: 10 }} variant="h4">
-              Professional Service
+              Honors and Awards
+            </Typography>
+            <ul>
+              <li>
+                <Grid item container justifyContent="space-between">
+                  <Typography variant="body1">
+                    Library Award for Undergraduate Research Excellence
+                  </Typography>
+                  <Typography variant="body1">
+                    <i>2023</i>
+                  </Typography>
+                </Grid>
+              </li>
+              <li>
+                <Grid item container justifyContent="space-between">
+                  <Typography variant="body1">
+                    Redhawk Excellence Scholarship
+                  </Typography>
+                  <Typography variant="body1">
+                    <i>2020-2024</i>
+                  </Typography>
+                </Grid>
+              </li>
+              <li>
+                <Grid item container justifyContent="space-between">
+                  <Typography variant="body1">
+                    University Academic Scholars Scholarship
+                  </Typography>
+                  <Typography variant="body1">
+                    <i>2020-2024</i>
+                  </Typography>
+                </Grid>
+              </li>
+              <li>
+                <Grid item container justifyContent="space-between">
+                  <Typography variant="body1">
+                    Bridges Program for Excellence Scholarship
+                  </Typography>
+                  <Typography variant="body1">
+                    <i>2020-2024</i>
+                  </Typography>
+                </Grid>
+              </li>
+            </ul>
+            <Divider />
+            <Typography style={{ marginTop: 10 }} variant="h4">
+              Peer Review
             </Typography>
             <ul>
               <li>
                 <Typography variant="body1">
-                  Reviewer for BMC Medical Informatics and Decision Making, a Q1
-                  Journal
+                  European Conference on Artificial Intelligence (ECAI) 2023
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  BMC Medical Informatics and Decision Making
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  Journal of Cleaner Production
                 </Typography>
               </li>
             </ul>
@@ -148,7 +169,23 @@ const CV = () => {
               </li>
             </ul>
             <Divider />
-            <SkillsAndHonors />
+            <Typography style={{ marginTop: 10 }} variant="h4">
+              Skills
+            </Typography>
+            <ul>
+              <li>
+                <Typography variant="body1">
+                  Proficient Programming Languages: Python, R, MATLAB, C++, SQL,
+                  JavaScript
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  Other Technologies: Pandas, Scikit-learn, NumPy, PyTorch,
+                  Linux, Git, LaTeX
+                </Typography>
+              </li>
+            </ul>
           </Grid>
         </Grid>
         <Hidden lgUp={true}>

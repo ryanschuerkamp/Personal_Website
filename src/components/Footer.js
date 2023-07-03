@@ -1,5 +1,4 @@
 import React from "react";
-import { Link as RouterLink } from "react-router-dom";
 import {
   Avatar,
   Grid,
@@ -7,7 +6,6 @@ import {
   Divider,
   Link,
   Box,
-  Button,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import { GitHub, LinkedIn, MailOutline } from "@material-ui/icons";
@@ -33,7 +31,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Footer = (props) => {
-  const { resumePage } = props;
   const classes = useStyles();
   return (
     <Grid container alignItems="center" justifyContent="center">
