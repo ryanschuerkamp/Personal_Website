@@ -9,9 +9,13 @@ import {
   Grid,
   useMediaQuery,
   IconButton,
+  Menu,
+  MenuItem,
+  Hidden,
+  Tooltip,
 } from "@material-ui/core/";
 import { ThemeProvider } from "@material-ui/core/styles";
-import { Brightness4, Brightness7 } from "@material-ui/icons";
+import { Brightness4, Brightness7, Menu as MenuIcon } from "@material-ui/icons";
 
 import Home from "./Home";
 import Personal from "./personal/Personal";
@@ -22,6 +26,19 @@ import { lightTheme, darkTheme } from "./Themes";
 export default function App() {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
   const [darkMode, setDarkMode] = useState(prefersDarkMode);
+  const [menuAnchorEl, setMenuAnchorEl] = useState(null);
+
+  const handleMenuOpen = (event) => {
+    setMenuAnchorEl(event.currentTarget);
+  };
+
+  const handleMenuClose = () => {
+    setMenuAnchorEl(null);
+  };
+
+  const modeSwitchTooltip = darkMode
+    ? "Switch to Light Mode"
+    : "Switch to Dark Mode";
 
   return (
     <Grid container>
@@ -33,55 +50,109 @@ export default function App() {
               render={({ location }) => (
                 <>
                   <AppBar position="static">
-                    <Grid item container>
-                      <Grid item xs={0} lg={1} />
-                      <Grid item xs={12} lg={11}>
-                        <Toolbar>
-                          <Tabs value={location.pathname}>
-                            <Tab
-                              label="Ryan Schuerkamp"
-                              value="/"
-                              component={Link}
-                              style={{ marginRight: "auto" }}
-                              to="/"
-                            />
-                            <Tab
-                              value="/cv"
-                              label="CV"
-                              component={Link}
-                              to="/cv"
-                            />
-                            <Tab
-                              value="/papers"
-                              label="Papers"
-                              component={Link}
-                              to="/papers"
-                            />
-                            <Tab
-                              label="Personal"
-                              value="/personal"
-                              component={Link}
-                              to="/personal"
-                            />
-                          </Tabs>
-                          <IconButton
-                            color="secondary"
-                            // style={{ marginLeft: "auto" }}
-                            onClick={() => setDarkMode(!darkMode)}
-                          >
-                            {darkMode ? <Brightness7 /> : <Brightness4 />}
-                          </IconButton>
-                        </Toolbar>
-                      </Grid>
-                      <Grid item xs={0} lg={1} />
-                    </Grid>
+                    <Toolbar>
+                      <Hidden smDown>
+                        <Tabs
+                          value={location.pathname}
+                          variant="standard"
+                          centered
+                          aria-label="Navigation Tabs"
+                          component={Grid}
+                          container
+                          justifyContent="center"
+                          spacing={2}
+                          xs={12}
+                          sm={12}
+                          md={0}
+                        >
+                          <Tab
+                            label="Ryan Schuerkamp"
+                            value="/"
+                            component={Link}
+                            style={{ marginRight: "auto" }}
+                            to="/"
+                          />
+                          <Tab
+                            value="/cv"
+                            label="CV"
+                            component={Link}
+                            to="/cv"
+                          />
+                          <Tab
+                            value="/papers"
+                            label="Papers"
+                            component={Link}
+                            to="/papers"
+                          />
+                          <Tab
+                            label="Personal"
+                            value="/personal"
+                            component={Link}
+                            to="/personal"
+                          />
+                        </Tabs>
+                      </Hidden>
+                      <Hidden mdUp>
+                        <IconButton
+                          color="inherit"
+                          aria-label="menu"
+                          edge="end"
+                          onClick={handleMenuOpen}
+                        >
+                          <MenuIcon />
+                        </IconButton>
+                      </Hidden>
+                      <IconButton
+                        color="secondary"
+                        onClick={() => setDarkMode(!darkMode)}
+                        style={{ marginLeft: "auto" }}
+                      >
+                        <Tooltip title={modeSwitchTooltip} arrow>
+                          {darkMode ? <Brightness7 /> : <Brightness4 />}
+                        </Tooltip>
+                      </IconButton>
+                    </Toolbar>
                   </AppBar>
 
+                  <Menu
+                    anchorEl={menuAnchorEl}
+                    keepMounted
+                    open={Boolean(menuAnchorEl)}
+                    onClose={handleMenuClose}
+                  >
+                    <MenuItem component={Link} to="/" onClick={handleMenuClose}>
+                      Ryan Schuerkamp
+                    </MenuItem>
+                    <Hidden mdUp>
+                      <MenuItem
+                        component={Link}
+                        to="/cv"
+                        onClick={handleMenuClose}
+                      >
+                        CV
+                      </MenuItem>
+                      <MenuItem
+                        component={Link}
+                        to="/papers"
+                        onClick={handleMenuClose}
+                      >
+                        Papers
+                      </MenuItem>
+                      <MenuItem
+                        component={Link}
+                        to="/personal"
+                        onClick={handleMenuClose}
+                      >
+                        Personal
+                      </MenuItem>
+                    </Hidden>
+                  </Menu>
+
                   <Switch>
-                    <Route path="/cv" exact render={() => <CV />} />
-                    <Route path="/papers" exact render={() => <Papers />} />
-                    <Route path="/personal" exact render={() => <Personal />} />
-                    <Route path="/" render={() => <Home />} />
+                    <Route path="/cv" exact component={CV} />
+                    <Route path="/papers" exact component={Papers} />
+                    <Route path="/personal" exact component={Personal} />
+                    <Route path="/" exact component={Home} />
                   </Switch>
                 </>
               )}
