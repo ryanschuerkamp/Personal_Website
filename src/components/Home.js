@@ -4,6 +4,8 @@ import { Grid, Typography, Hidden, Divider, Link } from "@material-ui/core";
 import Sidebar from "./sidebar/Sidebar";
 import Footer from "./Footer";
 
+// To deploy run the following command: npm run deploy
+
 const Home = () => {
   return (
     <Grid container>
