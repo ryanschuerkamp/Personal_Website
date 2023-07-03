@@ -92,12 +92,7 @@ const Home = () => {
             <Typography style={{ marginBottom: 20 }} variant="h5">
               Outside of work, I enjoy working out, cooking, hiking, and other
               hobbies, which you can read about on my{" "}
-              <Link
-                to="./personal"
-                target="_blank"
-                rel="noopener"
-                component={RouterLink}
-              >
+              <Link to="/personal" component={RouterLink}>
                 Personal page
               </Link>
               .

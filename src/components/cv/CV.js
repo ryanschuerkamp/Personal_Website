@@ -38,12 +38,7 @@ const CV = () => {
             </Typography>
             <Typography style={{ marginBottom: 20 }} variant="body1">
               See the{" "}
-              <Link
-                to="./papers"
-                component={RouterLink}
-                target="_blank"
-                rel="noopener"
-              >
+              <Link to="/papers" component={RouterLink}>
                 Papers page
               </Link>
               .
