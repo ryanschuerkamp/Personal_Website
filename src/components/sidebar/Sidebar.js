@@ -10,7 +10,7 @@ import {
 import { makeStyles } from "@material-ui/styles";
 import { GitHub, LinkedIn, MailOutline } from "@material-ui/icons";
 
-import profilePicture from "./profilePicture.jpeg";
+import profilePicture from "./profilePicture.png";
 
 const useStyles = makeStyles((theme) => ({
   profilePicture: {

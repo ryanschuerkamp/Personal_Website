@@ -18,12 +18,12 @@ const Background = () => {
         <PictureCard
           title="From Minnesota"
           picture={minnesotaPicture}
-          description="I am from a midsize suburb about 30 minutes south of Minneapolis. I loved building castle-like snow forts, climbing trees, and occasionally taking apart computers with my best friend in elementary school. I became great friends with my soccer teammates in middle and high school and learned Java in my senior year."
+          description="I am from a midsize suburb about 30 minutes south of Minneapolis. I loved building castle-like snow forts, climbing trees, and gaming with my best friend in elementary school. I became great friends with my soccer teammates in middle and high school and loved spending time with my family at our cabin. I love going home to visit my friends and family!"
         />
         <PictureCard
           title="Going to Miami University"
           picture={miamiUniversityPicture}
-          description="My sophomore year was my first time on campus; I spent my freshmen year back home in Minnesota. It was great to get to campus and meet more people in person, including people I met over zoom. I am excited to continue my education and meet more people in person."
+          description="I am a rising senior at Miami University. My sophomore year was my first time on campus; I spent my freshman year back home in Minnesota. It was great to get to campus and meet more people in person, including people I met over Zoom. I have valued my time in Ohio because of the great friendships and relationships I have made. "
         />
         <PictureCard
           title="Fun Fact"
