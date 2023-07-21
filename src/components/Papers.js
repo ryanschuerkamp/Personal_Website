@@ -78,6 +78,11 @@ const generatePaperList = (papers) => {
 
 const publishedAcceptedPapers = generatePaperList([
   {
+    title: "Extensions of Fuzzy Cognitive Maps: A Systematic Review",
+    authors: ["R. Schuerkamp, ", "P. J. Giabbanelli"],
+    venueYear: "ACM Computing Surveys (CSUR), 2023",
+  },
+  {
     title:
       "Simulation Models for Suicide Prevention: A Survey of the State-of-the-Art",
     authors: [
@@ -117,6 +122,11 @@ const publishedAcceptedPapers = generatePaperList([
 
 const underReviewPapers = generatePaperList([
   {
+    title: "Analysis of Fuzzy Cognitive Maps",
+    authors: ["R. Schuerkamp, ", "P. J. Giabbanelli"],
+    venueYear: "Submitted July 2023",
+  },
+  {
     title: "Extensions of Fuzzy Cognitive Maps",
     authors: ["R. Schuerkamp, ", "P. J. Giabbanelli"],
     venueYear: "Submitted May 2023",
@@ -147,11 +157,6 @@ const underReviewPapers = generatePaperList([
       "P. J. Giabbanelli",
     ],
     venueYear: "Submitted November 2022",
-  },
-  {
-    title: "Extensions of Fuzzy Cognitive Maps: A Systematic Review",
-    authors: ["R. Schuerkamp, ", "P. J. Giabbanelli"],
-    venueYear: "Submitted May 2022",
   },
 ]);
 
@@ -187,10 +192,6 @@ const inPrepPapers = generatePaperList([
       "P. J. Giabbanelli",
     ],
   },
-  {
-    title: "Analysis of Fuzzy Cognitive Maps",
-    authors: ["R. Schuerkamp, ", "P. J. Giabbanelli"],
-  },
 ]);
 
 const Papers = () => {
@@ -216,12 +217,12 @@ const Papers = () => {
               style={{ marginTop: 10, marginBottom: 10 }}
               variant="body1"
             >
-              I am interested in modeling and simulation, trustworthy machine
-              learning (interpretable, robust, and fair), and their healthcare
-              applications. I plan on joining a Ph.D. program starting in the
-              fall of 2024 to pursue these interests. If you are interested in
-              discussing research, please feel free to email me at schuerr2 at
-              miamioh dot edu.
+              I am interested in trustworthy{"\u2013"}interpretable, robust, and
+              fair{"\u2013"}machine learning and its healthcare applications. I
+              plan on joining a Ph.D. program starting in the fall of 2024 to
+              pursue these interests. If you are interested in discussing
+              research, please feel free to email me at schuerr2 at miamioh dot
+              edu.
             </Typography>
             <Typography
               style={{ marginTop: 10, marginBottom: 10 }}

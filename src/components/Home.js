@@ -46,9 +46,10 @@ const Home = () => {
                 <li>Machine learning for healthcare.</li>
               </ol>
               As a result of these three research areas, I am interested in
-              trustworthy machine learning (interpretable, robust, and fair) and
-              its healthcare applications. I plan on joining a Ph.D. program
-              starting in the fall of 2024 to pursue these interests.
+              trustworthy{"\u2013"}interpretable, robust, and fair{"\u2013"}
+              machine learning and its healthcare applications. I plan on
+              joining a Ph.D. program starting in the fall of 2024 to pursue
+              these interests.
             </Typography>
             <Typography
               style={{ marginTop: 10, marginBottom: 20 }}
