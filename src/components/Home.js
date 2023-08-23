@@ -30,9 +30,10 @@ const Home = () => {
               style={{ marginTop: 10, marginBottom: 20 }}
               variant="h5"
             >
-              I am a rising senior at Miami University pursuing a B.S. and M.S.
-              in Computer Science, a B.S. in Data Science and Statistics, and a
-              minor in Mathematics. My research has focused on three main areas:
+              I am a rising senior at Miami University pursuing a combined
+              B.S./M.S. in Computer Science, a B.S. in Data Science and
+              Statistics, and a minor in Mathematics. My research has focused on
+              three main areas:
               <ol>
                 <li>
                   Fuzzy Cognitive Maps (an interpretable graph-based simulation

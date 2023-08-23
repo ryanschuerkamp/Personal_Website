@@ -76,11 +76,12 @@ const generatePaperList = (papers) => {
   });
 };
 
-const publishedAcceptedPapers = generatePaperList([
+const journalArticles = generatePaperList([
   {
     title: "Extensions of Fuzzy Cognitive Maps: A Systematic Review",
     authors: ["R. Schuerkamp, ", "P. J. Giabbanelli"],
     venueYear: "ACM Computing Surveys (CSUR), 2023",
+    paperLink: "https://dl.acm.org/doi/10.1145/3610771",
   },
   {
     title:
@@ -94,14 +95,6 @@ const publishedAcceptedPapers = generatePaperList([
     venueYear:
       "Computational Modeling of Social Processes and Social Networks, special issue of Computers, 2023",
     paperLink: "https://www.mdpi.com/2073-431X/12/7/132",
-  },
-  {
-    title:
-      "Facilitating the Interoperability and Reuse of Extensions of Fuzzy Cognitive Maps",
-    authors: ["R. Schuerkamp, ", "P. J. Giabbanelli, ", "N. Daclin"],
-    venueYear: "Annual Modeling And Simulation Conference (ANNSIM), 2023",
-    paperLink: "https://ieeexplore.ieee.org/abstract/document/10155381",
-    codeLink: "https://osf.io/n4cvg/",
   },
   {
     title:
@@ -120,17 +113,7 @@ const publishedAcceptedPapers = generatePaperList([
   },
 ]);
 
-const underReviewPapers = generatePaperList([
-  {
-    title: "Analysis of Fuzzy Cognitive Maps",
-    authors: ["R. Schuerkamp, ", "P. J. Giabbanelli"],
-    venueYear: "Submitted July 2023",
-  },
-  {
-    title: "Extensions of Fuzzy Cognitive Maps",
-    authors: ["R. Schuerkamp, ", "P. J. Giabbanelli"],
-    venueYear: "Submitted May 2023",
-  },
+const conferencePapers = generatePaperList([
   {
     title:
       "How to Combine Models? Principles and Mechanisms to Aggregate Fuzzy Cognitive Maps",
@@ -140,8 +123,32 @@ const underReviewPapers = generatePaperList([
       "U. Grandi, ",
       "S. Doutre.",
     ],
-    venueYear: "Submitted April 2023",
+    venueYear: "Winter Simulation Conference (WSC), 2023",
   },
+  {
+    title:
+      "Facilitating the Interoperability and Reuse of Extensions of Fuzzy Cognitive Maps",
+    authors: ["R. Schuerkamp, ", "P. J. Giabbanelli, ", "N. Daclin"],
+    venueYear: "Annual Modeling And Simulation Conference (ANNSIM), 2023",
+    paperLink: "https://ieeexplore.ieee.org/abstract/document/10155381",
+    codeLink: "https://osf.io/n4cvg/",
+  },
+]);
+
+const textbookChapters = generatePaperList([
+  {
+    title: "Analysis of Fuzzy Cognitive Maps",
+    authors: ["R. Schuerkamp, ", "P. J. Giabbanelli"],
+    venueYear: "Fuzzy Cognitive Maps: Best Practices and Modern Methods, 2023",
+  },
+  {
+    title: "Extensions of Fuzzy Cognitive Maps",
+    authors: ["R. Schuerkamp, ", "P. J. Giabbanelli"],
+    venueYear: "Fuzzy Cognitive Maps: Best Practices and Modern Methods, 2023",
+  },
+]);
+
+const underReviewPapers = generatePaperList([
   {
     title:
       "Guiding Prevention Initiatives by Applying Network Analysis to Causal Maps of Adverse Childhood Experiences and Adolescent Suicide",
@@ -161,6 +168,11 @@ const underReviewPapers = generatePaperList([
 ]);
 
 const inPrepPapers = generatePaperList([
+  {
+    title:
+      "From Pigs to Humans: A Domain Adaptation Approach for Fluid Resuscitation",
+    authors: ["R. Schuerkamp, ", "X. Li, ", "B. Kunzer, ", "A. Dubrawsk"],
+  },
   {
     title:
       "Impact of Policies, Practices, and Programs on Preventing Adolescent Suicide: An Agent-Based Modeling Approach",
@@ -243,10 +255,28 @@ const Papers = () => {
               style={{ marginBottom: 10, marginTop: 10 }}
               variant="h4"
             >
-              Published or Accepted
+              Journal Articles
             </Typography>
             <Divider />
-            {publishedAcceptedPapers}
+            {journalArticles}
+
+            <Typography
+              style={{ marginBottom: 10, marginTop: 10 }}
+              variant="h4"
+            >
+              Conference Papers
+            </Typography>
+            <Divider />
+            {conferencePapers}
+
+            <Typography
+              style={{ marginBottom: 10, marginTop: 10 }}
+              variant="h4"
+            >
+              Textbook Chapters
+            </Typography>
+            <Divider />
+            {textbookChapters}
 
             <Typography
               style={{ marginBottom: 10, marginTop: 10 }}

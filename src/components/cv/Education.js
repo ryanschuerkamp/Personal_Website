@@ -89,6 +89,10 @@ const Education = () => {
     ],
     [
       "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-620/index.html",
+      "620E Predictive Models for Health",
+    ],
+    [
+      "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-620/index.html",
       "620C Network Analysis and Modeling",
     ],
     [
@@ -108,12 +112,20 @@ const Education = () => {
       "467 Computer and Network Security",
     ],
     [
+      "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-465-565/index.html",
+      "465 Comparative Programming Languages",
+    ],
+    [
       "https://miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-449/index.html",
       "449 Senior Design Project II",
     ],
     [
       "https://miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-448/index.html",
       "448 Senior Design Project I",
+    ],
+    [
+      "https://miamioh.edu/cec/departments/computer-science-software-engineering/academics/course-descriptions/cse-courses/cse-443.html",
+      "443 High Performance Computing",
     ],
     [
       "https://www.miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-385/index.html",
@@ -171,8 +183,12 @@ const Education = () => {
       "462 Inferential Statistics",
     ],
     [
-      "https://miamioh.edu/academics/bulletin/archives/2012-2013/sta-404504-visualizing-information-3.htm",
-      "404 Visualizing Information",
+      "https://bulletin.miamioh.edu/search/?P=STA%20427",
+      "427 Bayesian Statistics",
+    ],
+    [
+      "https://bulletin.miamioh.edu/search/?P=STA%20404",
+      "404 Advanced Data Visualization",
     ],
     ["https://bulletin.miamioh.edu/search/?P=STA%20401", "401 Probability"],
     [
@@ -183,6 +199,7 @@ const Education = () => {
 
   const mthList = generateCourseList([
     ["", "433 Applied Linear Algebra"],
+    ["https://bulletin.miamioh.edu/search/?P=MTH%20432", "432 Optimization"],
     [
       "https://bulletin.miamioh.edu/search/?P=MTH%20331",
       "331 Proof: Introduction to Higher Mathematics",
@@ -236,8 +253,8 @@ const Education = () => {
       <Grid item container justifyContent="space-between">
         <Typography variant="body1">
           <b>
-            B.S. & M.S. in Computer Science, B.S. in Data Science and
-            Statistics, Mathematics Minor
+            Combined B.S./M.S. in Computer Science <br />
+            B.S. in Data Science and Statistics with a Mathematics Minor
           </b>
         </Typography>
         <Typography variant="body1">
@@ -246,6 +263,10 @@ const Education = () => {
       </Grid>
       <Typography component="div" variant="body1">
         <ul>
+          <li>
+            Completed five-year combined B.S./M.S., an additional B.S., and a
+            minor in four years
+          </li>
           <li>
             Thesis: Extensions and Aggregation Algorithms for Fuzzy Cognitive
             Maps
@@ -256,11 +277,11 @@ const Education = () => {
           </li>
           <li>
             Relevant Graduate Courses: Machine Learning, Statistical Learning,
-            Computer Vision, Network Science
+            Predictive Models for Health, Network Science
           </li>
           <li>
             Relevant Undergraduate Courses: Linear Algebra, Probability, Proofs,
-            Calculus 3, Regression, Inferential Statistics
+            Optimization, Regression, Bayesian Statistics
           </li>
           <li>All Computer Science, Mathematics, and Statistics Courses:</li>
           <ul>

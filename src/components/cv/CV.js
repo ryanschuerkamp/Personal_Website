@@ -50,6 +50,17 @@ const CV = () => {
             <ul>
               <li>
                 <Typography variant="body1">
+                  Accepted: <b>R. Schuerkamp</b>.{" "}
+                  <i>
+                    How to Combine Models? Principles and Mechanisms to
+                    Aggregate Fuzzy Cognitive Maps
+                  </i>
+                  . Oral Presentation at Winter Simulation Conference (WSC);
+                  December 2023; San Antonio TX
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
                   <b>R. Schuerkamp</b>.{" "}
                   <i>
                     Facilitating the Interoperability and Reuse of Extensions of

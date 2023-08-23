@@ -30,11 +30,12 @@ const Experience = () => {
   const research_experiences = renderExperiences([
     {
       title:
-        "Robotics Institute Summer Scholar (RISS REU) Advised by Professor Artur Dubrawski",
+        "Research Assistant (RISS REU) Advised by Professor Artur Dubrawski and the Auton Lab",
       company: "Carnegie Mellon University",
       dates: "June 2023 - Present",
       accomplishments: [
-        "Developing a machine learning approach for fluid resuscitation sufficiency analysis leveraging human and pig data",
+        "Created a model to accurately conduct fluid resuscitation in pigs with high precision (0.8) using Python and Scikit-learn",
+        "Collaborated with clinicians to create novel methods for humans and apply pigs models on two real-world human datasets of patients airlifted to the hospital employing transfer learning approaches, Python, Pandas, and Scikit-learn",
       ],
     },
 
