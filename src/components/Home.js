@@ -48,9 +48,9 @@ const Home = () => {
               </ol>
               As a result of these three research areas, I am interested in
               trustworthy{"\u2013"}interpretable, robust, and fair{"\u2013"}
-              machine learning and its healthcare applications. I plan on
-              joining a Ph.D. program starting in the fall of 2024 to pursue
-              these interests.
+              machine learning and its health applications. I plan on joining a
+              Ph.D. program starting in the fall of 2024 to pursue these
+              interests.
             </Typography>
             <Typography
               style={{ marginTop: 10, marginBottom: 20 }}
@@ -58,13 +58,13 @@ const Home = () => {
             >
               At Miami, I am advised by{" "}
               <Link
-                href="https://miamioh.edu/profiles/cec/philippe-giabbanelli.html"
+                href="https://giabbanelli.com/"
                 target="_blank"
                 rel="noopener"
               >
                 Professor Philippe Giabbanelli
               </Link>
-              . This summer, I am interning with{" "}
+              . This summer, I interned with{" "}
               <Link
                 href="https://www.ri.cmu.edu/ri-faculty/artur-w-dubrawski/"
                 target="_blank"

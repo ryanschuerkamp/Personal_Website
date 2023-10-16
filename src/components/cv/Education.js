@@ -199,7 +199,6 @@ const Education = () => {
 
   const mthList = generateCourseList([
     ["", "433 Applied Linear Algebra"],
-    ["https://bulletin.miamioh.edu/search/?P=MTH%20432", "432 Optimization"],
     [
       "https://bulletin.miamioh.edu/search/?P=MTH%20331",
       "331 Proof: Introduction to Higher Mathematics",
@@ -280,8 +279,8 @@ const Education = () => {
             Predictive Models for Health, Network Science
           </li>
           <li>
-            Relevant Undergraduate Courses: Linear Algebra, Probability, Proofs,
-            Optimization, Regression, Bayesian Statistics
+            Relevant Undergraduate Courses: Linear Algebra, Proofs, Calculus 3,
+            Probability, Bayesian Statistics, Algorithms
           </li>
           <li>All Computer Science, Mathematics, and Statistics Courses:</li>
           <ul>

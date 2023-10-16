@@ -44,7 +44,7 @@ const Hobbies = () => {
         <PictureCard
           title="Gaming"
           picture={gamingPicture}
-          description="I love playing both single and multiplayer games with or without friends. Recently, I have loved Assassin’s Creed; Origins, Odyssey, and Valhalla were all great. Cyberpunk 2077 is also good now after all of the patches. I am excited for Starfield to come out soon and Elder Scrolls 6, probably after I graduate."
+          description="I love playing both single and multiplayer games with or without friends. Recently, I have loved Assassin’s Creed; Origins, Odyssey, and Valhalla were all great. Cyberpunk 2077 is also great now after all of the patches. I am excited for Elder Scrolls 6 to come out after I graduate."
         />
       </Grid>
     </>

@@ -60,7 +60,7 @@ const Footer = (props) => {
             variant="body1"
           >
             Undergraduate student interested in trustworthy machine learning and
-            its healthcare applications
+            its health applications
           </Typography>
         </Grid>
         <Divider />

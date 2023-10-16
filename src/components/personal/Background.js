@@ -23,7 +23,7 @@ const Background = () => {
         <PictureCard
           title="Going to Miami University"
           picture={miamiUniversityPicture}
-          description="I am a rising senior at Miami University. My sophomore year was my first time on campus; I spent my freshman year back home in Minnesota. It was great to get to campus and meet more people in person, including people I met over Zoom. I have valued my time in Ohio because of the great friendships and relationships I have made. "
+          description="I am a senior at Miami University. My sophomore year was my first time on campus; I spent my freshman year back home in Minnesota. It was great to get to campus and meet more people in person, including people I met over Zoom. I have valued my time in Ohio because of the great friendships and relationships I have made. "
         />
         <PictureCard
           title="Fun Fact"

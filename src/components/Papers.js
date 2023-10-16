@@ -98,7 +98,7 @@ const journalArticles = generatePaperList([
   },
   {
     title:
-      "Enabling new interactions with library digital collections: automatic gender recognition in historical postcards via deep learning",
+      "Enabling New Interactions With Library Digital Collections: Automatic Gender Recognition In Historical Postcards Via Deep Learning",
     authors: [
       "R. Schuerkamp, ",
       "J. Barrett, ",
@@ -165,14 +165,24 @@ const underReviewPapers = generatePaperList([
     ],
     venueYear: "Submitted November 2022",
   },
+  {
+    title:
+      "Adapting Animal Models to Assess Sufficiency of Fluid Resuscitation in Humans",
+    authors: [
+      "R. Schuerkamp, ",
+      "X. Li, ",
+      "B. Kunzer, ",
+      "L. S. Weiss, ",
+      "H. Gómez, ",
+      "F. X. Guyette, ",
+      "M. R. Pinsky, ",
+      "A. Dubrawsk",
+    ],
+    venueYear: "Submitted September 2023:",
+  },
 ]);
 
 const inPrepPapers = generatePaperList([
-  {
-    title:
-      "From Pigs to Humans: A Domain Adaptation Approach for Fluid Resuscitation",
-    authors: ["R. Schuerkamp, ", "X. Li, ", "B. Kunzer, ", "A. Dubrawsk"],
-  },
   {
     title:
       "Impact of Policies, Practices, and Programs on Preventing Adolescent Suicide: An Agent-Based Modeling Approach",
@@ -230,11 +240,10 @@ const Papers = () => {
               variant="body1"
             >
               I am interested in trustworthy{"\u2013"}interpretable, robust, and
-              fair{"\u2013"}machine learning and its healthcare applications. I
-              plan on joining a Ph.D. program starting in the fall of 2024 to
-              pursue these interests. If you are interested in discussing
-              research, please feel free to email me at schuerr2 at miamioh dot
-              edu.
+              fair{"\u2013"}machine learning and its health applications. I plan
+              on joining a Ph.D. program starting in the fall of 2024 to pursue
+              these interests. If you are interested in discussing research,
+              please feel free to email me at schuerr2 at miamioh dot edu.
             </Typography>
             <Typography
               style={{ marginTop: 10, marginBottom: 10 }}

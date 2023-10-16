@@ -118,7 +118,7 @@ const CV = () => {
                     Redhawk Excellence Scholarship
                   </Typography>
                   <Typography variant="body1">
-                    <i>2020-2024</i>
+                    <i>2020 - 2024</i>
                   </Typography>
                 </Grid>
               </li>
@@ -128,7 +128,7 @@ const CV = () => {
                     University Academic Scholars Scholarship
                   </Typography>
                   <Typography variant="body1">
-                    <i>2020-2024</i>
+                    <i>2020 - 2024</i>
                   </Typography>
                 </Grid>
               </li>
@@ -138,7 +138,7 @@ const CV = () => {
                     Bridges Program for Excellence Scholarship
                   </Typography>
                   <Typography variant="body1">
-                    <i>2020-2024</i>
+                    <i>2020 - 2024</i>
                   </Typography>
                 </Grid>
               </li>
@@ -148,6 +148,17 @@ const CV = () => {
               Peer Review
             </Typography>
             <ul>
+              <li>
+                <Typography variant="body1">
+                  Conference on Neural Information Processing Systems (NeurIPS)
+                  2023
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  Machine Learning for Health symposium (ML4H) 2023
+                </Typography>
+              </li>
               <li>
                 <Typography variant="body1">
                   European Conference on Artificial Intelligence (ECAI) 2023
