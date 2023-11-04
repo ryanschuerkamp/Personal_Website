@@ -135,6 +135,24 @@ const conferencePapers = generatePaperList([
   },
 ]);
 
+const abstracts = generatePaperList([
+  {
+    title:
+      "Adapting Animal Models to Assess Sufficiency of Fluid Resuscitation in Humans",
+    authors: [
+      "R. Schuerkamp, ",
+      "X. Li, ",
+      "B. Kunzer, ",
+      "L. S. Weiss, ",
+      "H. Gómez, ",
+      "F. X. Guyette, ",
+      "M. R. Pinsky, ",
+      "A. Dubrawski",
+    ],
+    venueYear: "AAAI Conference on Artificial Intelligence (AAAI), 2024",
+  },
+]);
+
 const textbookChapters = generatePaperList([
   {
     title: "Analysis of Fuzzy Cognitive Maps",
@@ -164,21 +182,6 @@ const underReviewPapers = generatePaperList([
       "P. J. Giabbanelli",
     ],
     venueYear: "Submitted November 2022",
-  },
-  {
-    title:
-      "Adapting Animal Models to Assess Sufficiency of Fluid Resuscitation in Humans",
-    authors: [
-      "R. Schuerkamp, ",
-      "X. Li, ",
-      "B. Kunzer, ",
-      "L. S. Weiss, ",
-      "H. Gómez, ",
-      "F. X. Guyette, ",
-      "M. R. Pinsky, ",
-      "A. Dubrawsk",
-    ],
-    venueYear: "Submitted September 2023:",
   },
 ]);
 
@@ -273,10 +276,19 @@ const Papers = () => {
               style={{ marginBottom: 10, marginTop: 10 }}
               variant="h4"
             >
-              Conference Papers
+              Peer-reviewed Conference Articles
             </Typography>
             <Divider />
             {conferencePapers}
+
+            <Typography
+              style={{ marginBottom: 10, marginTop: 10 }}
+              variant="h4"
+            >
+              Peer-reviewed Abstracts
+            </Typography>
+            <Divider />
+            {abstracts}
 
             <Typography
               style={{ marginBottom: 10, marginTop: 10 }}
