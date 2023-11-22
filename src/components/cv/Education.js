@@ -271,10 +271,6 @@ const Education = () => {
             Maps
           </li>
           <li>
-            President’s List (all semesters, awarded to top 3% of students),
-            Honors College, and Computing and Engineering Scholar
-          </li>
-          <li>
             Relevant Graduate Courses: Machine Learning, Statistical Learning,
             Predictive Models for Health, Network Science
           </li>

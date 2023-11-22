@@ -181,24 +181,14 @@ const underReviewPapers = generatePaperList([
       "C. Florence, ",
       "P. J. Giabbanelli",
     ],
-    venueYear: "Submitted November 2022",
   },
 ]);
 
 const inPrepPapers = generatePaperList([
   {
     title:
-      "Impact of Policies, Practices, and Programs on Preventing Adolescent Suicide: An Agent-Based Modeling Approach",
-    authors: [
-      "K. L. Rice, ",
-      "P. J. Giabbanelli, ",
-      "M. M. Brown, ",
-      "N. Nataraj, ",
-      "C. R. Harper, ",
-      "L. Liang, ",
-      "R. Schuerkamp, ",
-      "C. Florence",
-    ],
+      "Leveraging Large Language Models to Resolve Agents' Cognitive Dissonance",
+    authors: ["R. Schuerkamp, ", "H. Ahlstrom, ", "P. J. Giabbanelli"],
   },
   {
     title:
@@ -215,6 +205,20 @@ const inPrepPapers = generatePaperList([
       "B. D. Maldonado, ",
       "B. Moran, ",
       "P. J. Giabbanelli",
+    ],
+  },
+  {
+    title:
+      "Impact of Policies, Practices, and Programs on Preventing Adolescent Suicide: An Agent-Based Modeling Approach",
+    authors: [
+      "K. L. Rice, ",
+      "P. J. Giabbanelli, ",
+      "M. M. Brown, ",
+      "N. Nataraj, ",
+      "C. R. Harper, ",
+      "L. Liang, ",
+      "R. Schuerkamp, ",
+      "C. Florence",
     ],
   },
 ]);

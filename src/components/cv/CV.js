@@ -104,6 +104,14 @@ const CV = () => {
             <ul>
               <li>
                 <Grid item container justifyContent="space-between">
+                  <Typography variant="body1">President's List</Typography>
+                  <Typography variant="body1">
+                    <i>2020 - Present</i>
+                  </Typography>
+                </Grid>
+              </li>
+              <li>
+                <Grid item container justifyContent="space-between">
                   <Typography variant="body1">
                     Library Award for Undergraduate Research Excellence
                   </Typography>
@@ -136,6 +144,24 @@ const CV = () => {
                 <Grid item container justifyContent="space-between">
                   <Typography variant="body1">
                     Bridges Program for Excellence Scholarship
+                  </Typography>
+                  <Typography variant="body1">
+                    <i>2020 - 2024</i>
+                  </Typography>
+                </Grid>
+              </li>
+              <li>
+                <Grid item container justifyContent="space-between">
+                  <Typography variant="body1">Honors College</Typography>
+                  <Typography variant="body1">
+                    <i>2020 - 2024</i>
+                  </Typography>
+                </Grid>
+              </li>
+              <li>
+                <Grid item container justifyContent="space-between">
+                  <Typography variant="body1">
+                    Computing and Engineering Scholar
                   </Typography>
                   <Typography variant="body1">
                     <i>2020 - 2024</i>

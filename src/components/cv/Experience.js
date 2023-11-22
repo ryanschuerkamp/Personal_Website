@@ -45,10 +45,12 @@ const Experience = () => {
       dates: "October 2021 - Present",
       accomplishments: [
         "Built simulation model for the Centers for Disease Control and Prevention (CDC) to assess adolescent suicide prevention interventions and inform future intervention deployment utilizing Python, NumPy, and Pandas",
-        "Applied transfer learning and deep learning-based object detection model to detect gender in over 700 GB of historical postcards with a precision of 93% leveraging Python, Pandas, and OpenCV",
-        "Created and implemented 26 algorithms to enable interoperability of simulation models using Python and NetworkX",
-        "Performed and submitted a systematic review of 22 extensions of Fuzzy Cognitive Maps, their features, operationalization, strengths and weaknesses, potential use cases, and maturity",
-        "Discovered factors driving adolescent suicide as part of CDC-funded research by analyzing the largest suicide causal map with over 360 nodes and 940 edges employing Python and NetworkX",
+        "Discovered factors driving adolescent suicide as part of CDC-funded research by analyzing largest suicide causal map with over 360 nodes and 940 edges employing Python and NetworkX",
+        "Performed a systematic review of 22 extensions of Fuzzy Cognitive Maps (FCMs), their operationalization, and use cases",
+        "Created and implemented algorithms to enable interoperability of 10 extensions of FCMs using Python and NetworkX",
+        "Proposed nine novel properties and evaluated three methods from social choice theory for FCM aggregation",
+        "Wrote a textbook chapter on extensions of FCMs and another on analyzing FCMs with network science and graph theory",
+        "Applied transfer learning and deep learning-based object detection model to detect gender in over 700 GB of historical postcards with a precision of 0.93 leveraging Python, Pandas, and OpenCV",
       ],
     },
     {
@@ -56,8 +58,8 @@ const Experience = () => {
       company: "Miami University",
       dates: "October 2020 - May 2021",
       accomplishments: [
-        "Performed feature extraction on over 100 GB of network traffic utilizing Python, Pandas, Scapy, and Miami University’s high-performance computing cluster",
-        "Distinguished botnet from non-botnet traffic with high sensitivity (0.93 on a quality scale of 1.0) on a subset of network traffic employing Scikit-learn, Python, and Pandas",
+        "Extracted features from over 100 GB of network traffic with Python, Pandas, and a high-performance computing cluster",
+        "Identified botnet traffic with high sensitivity (0.93) on a subset of network traffic using Scikit-learn, Python, and Pandas",
       ],
     },
   ]);
@@ -77,10 +79,10 @@ const Experience = () => {
       company: "Artisan Partners",
       dates: "May 2022 - August 2022",
       accomplishments: [
-        "Enabled analysis of terabytes of foreign-exchange trading data by reducing memory usage by 93.4% and runtime by 97.3% by optimizing SQL query and rewriting AWS connection code in Python",
+        "Enabled analysis of terabytes of foreign-exchange trading data through optimizing SQL query and rewriting AWS connection code in Python, reducing runtime by 97.3% and memory usage by 93.4%",
         "Transformed foreign-exchange trading strategy by analyzing terabytes of data, approximately 25 GB/day, to compute historical spreads and identify arbitrage opportunities leveraging Python, Pandas, AWS, and Snowflake",
         "Saved portfolio managers and research associates several hours each day by creating an application to scrape and recommend 1000+ news stories from 100s of sources utilizing Python, React, and Material-UI",
-        "Modeled an energy company's revenue pre-earnings announcement with 97% accuracy with Python and Pandas",
+        "Modeled an energy company's revenue pre-earnings announcement with an adjusted R-squared of 0.94 with Python",
       ],
     },
     {
