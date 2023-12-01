@@ -121,7 +121,7 @@ const conferencePapers = generatePaperList([
       "R. Schuerkamp, ",
       "P. J. Giabbanelli, ",
       "U. Grandi, ",
-      "S. Doutre.",
+      "S. Doutre",
     ],
     venueYear: "Winter Simulation Conference (WSC), 2023",
   },
