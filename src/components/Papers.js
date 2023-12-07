@@ -138,7 +138,7 @@ const conferencePapers = generatePaperList([
 const abstracts = generatePaperList([
   {
     title:
-      "Adapting Animal Models to Assess Sufficiency of Fluid Resuscitation in Humans",
+      "Adapting Animal Models to Assess Sufficiency of Fluid Resuscitation in Humans (Student Abstract)",
     authors: [
       "R. Schuerkamp, ",
       "X. Li, ",
