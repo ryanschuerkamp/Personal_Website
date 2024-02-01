@@ -157,12 +157,14 @@ const textbookChapters = generatePaperList([
   {
     title: "Analysis of Fuzzy Cognitive Maps",
     authors: ["R. Schuerkamp, ", "P. J. Giabbanelli"],
-    venueYear: "Fuzzy Cognitive Maps: Best Practices and Modern Methods, 2023",
+    venueYear: "Fuzzy Cognitive Maps: Best Practices and Modern Methods, 2024",
+    paperLink: "https://link.springer.com/chapter/10.1007/978-3-031-48963-1_5",
   },
   {
     title: "Extensions of Fuzzy Cognitive Maps",
     authors: ["R. Schuerkamp, ", "P. J. Giabbanelli"],
-    venueYear: "Fuzzy Cognitive Maps: Best Practices and Modern Methods, 2023",
+    venueYear: "Fuzzy Cognitive Maps: Best Practices and Modern Methods, 2024",
+    paperLink: "https://link.springer.com/chapter/10.1007/978-3-031-48963-1_6",
   },
 ]);
 
