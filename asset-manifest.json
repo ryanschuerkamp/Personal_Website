@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.js": "/static/js/main.9397e34d.chunk.js",
-    "main.js.map": "/static/js/main.9397e34d.chunk.js.map",
+    "main.js": "/static/js/main.a5e931db.chunk.js",
+    "main.js.map": "/static/js/main.a5e931db.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8233b8b5.js",
     "runtime-main.js.map": "/static/js/runtime-main.8233b8b5.js.map",
     "static/js/2.f8d88794.chunk.js": "/static/js/2.f8d88794.chunk.js",
     "static/js/2.f8d88794.chunk.js.map": "/static/js/2.f8d88794.chunk.js.map",
     "index.html": "/index.html",
     "static/js/2.f8d88794.chunk.js.LICENSE.txt": "/static/js/2.f8d88794.chunk.js.LICENSE.txt",
+    "static/media/carnegieMellonUniversity.cf3f4718.jpeg": "/static/media/carnegieMellonUniversity.cf3f4718.jpeg",
     "static/media/coding.52766a4b.jpeg": "/static/media/coding.52766a4b.jpeg",
     "static/media/cooking.3eb77c03.jpeg": "/static/media/cooking.3eb77c03.jpeg",
     "static/media/gaming.50a9379d.jpeg": "/static/media/gaming.50a9379d.jpeg",
@@ -22,6 +23,6 @@
   "entrypoints": [
     "static/js/runtime-main.8233b8b5.js",
     "static/js/2.f8d88794.chunk.js",
-    "static/js/main.9397e34d.chunk.js"
+    "static/js/main.a5e931db.chunk.js"
   ]
 }
