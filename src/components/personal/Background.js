@@ -5,6 +5,7 @@ import PictureCard from "./PictureCard";
 
 import minnesotaPicture from "./images/minnesota.jpeg";
 import miamiUniversityPicture from "./images/miamiUniversity.jpeg";
+import carnegieMellonUniversityPicture from "./images/carnegieMellonUniversity.jpeg";
 import iceCreamPicture from "./images/iceCreamCake.jpeg";
 
 const Background = () => {
@@ -21,9 +22,14 @@ const Background = () => {
           description="I am from a midsize suburb about 30 minutes south of Minneapolis. I loved building castle-like snow forts, climbing trees, and gaming with my best friend in elementary school. I became great friends with my soccer teammates in middle and high school and loved spending time with my family at our cabin. I love going home to visit my friends and family!"
         />
         <PictureCard
-          title="Going to Miami University"
+          title="Graduating from Miami University"
           picture={miamiUniversityPicture}
           description="I am a senior at Miami University. My sophomore year was my first time on campus; I spent my freshman year back home in Minnesota. It was great to get to campus and meet more people in person, including people I met over Zoom. I have valued my time in Ohio because of the great friendships and relationships I have made. "
+        />
+        <PictureCard
+          title="Going to Carnegie Mellon University"
+          picture={carnegieMellonUniversityPicture}
+          description="I am an incoming Ph.D. student in the School of Computer Science at Carnegie Mellon University. I am excited to pursue my research interests in machine learning and its health applications, meet new people, and explore Pittsburgh!"
         />
         <PictureCard
           title="Fun Fact"

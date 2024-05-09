@@ -84,6 +84,10 @@ const Education = () => {
       "700 Research for Master's Thesis",
     ],
     [
+      "https://miamioh.edu/cec/departments/computer-science-software-engineering/academics/course-descriptions/cse-courses/cse-690.html",
+      "690 Graduate Research",
+    ],
+    [
       "https://miamioh.edu/cec/academics/departments/cse/academics/course-descriptions/cse-627/index.html",
       "627 Machine Learning",
     ],
@@ -253,7 +257,7 @@ const Education = () => {
         <Typography variant="body1">
           <b>
             Combined B.S./M.S. in Computer Science <br />
-            B.S. in Data Science and Statistics with a Mathematics Minor
+            B.S. in Data Science and Statistics
           </b>
         </Typography>
         <Typography variant="body1">
@@ -263,12 +267,12 @@ const Education = () => {
       <Typography component="div" variant="body1">
         <ul>
           <li>
-            Completed five-year combined B.S./M.S., an additional B.S., and a
-            minor in four years
+            Completed five-year combined B.S./M.S. and an additional B.S. in
+            four years
           </li>
           <li>
-            Thesis: Extensions and Aggregation Algorithms for Fuzzy Cognitive
-            Maps
+            Thesis: Applications Of Large Language Models, Aggregation
+            Algorithms, And Extensions For Fuzzy Cognitive Maps
           </li>
           <li>
             Relevant Graduate Courses: Machine Learning, Statistical Learning,

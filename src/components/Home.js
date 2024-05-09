@@ -43,13 +43,12 @@ const Home = () => {
                   prevention in collaboration with the Centers for Disease
                   Control and Prevention (CDC)
                 </li>
-                <li>Machine learning for healthcare.</li>
+                <li>Machine learning for health.</li>
               </ol>
               As a result of these three research areas, I am interested in
-              trustworthy{"\u2013"}interpretable, robust, and fair{"\u2013"}
-              machine learning and its health applications. I plan on joining a
-              Ph.D. program starting in the fall of 2024 to pursue these
-              interests.
+              machine learning and its health applications. Starting in the fall
+              of 2024, I will be a Ph.D. student in the School of Computer
+              Science at Carnegie Mellon University.
             </Typography>
             <Typography
               style={{ marginTop: 10, marginBottom: 20 }}
@@ -63,7 +62,7 @@ const Home = () => {
               >
                 Professor Philippe Giabbanelli
               </Link>
-              . This summer, I interned with{" "}
+              . Last summer, I interned with{" "}
               <Link
                 href="https://www.ri.cmu.edu/ri-faculty/artur-w-dubrawski/"
                 target="_blank"
@@ -75,7 +74,7 @@ const Home = () => {
               <Link href="https://autonlab.org/" target="_blank" rel="noopener">
                 Auton Lab
               </Link>{" "}
-              at Carnegie Mellon University and am developing a machine
+              at Carnegie Mellon University and developed a machine
               learning-based approach for resuscitation sufficiency analysis.
             </Typography>
 

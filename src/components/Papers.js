@@ -78,6 +78,22 @@ const generatePaperList = (papers) => {
 
 const journalArticles = generatePaperList([
   {
+    title:
+      "Guiding Prevention Initiatives by Applying Network Analysis to Causal Maps of Adverse Childhood Experiences and Adolescent Suicide",
+    authors: [
+      "B. D. Maldonado, ",
+      "R. Schuerkamp, ",
+      "C. M. Martin, ",
+      "K. L. Rice, ",
+      "N. Nataraj, ",
+      "M. M. Brown, ",
+      "C. R. Harper, ",
+      "C. Florence, ",
+      "P. J. Giabbanelli",
+    ],
+    venueYear: "Network Science, 2024",
+  },
+  {
     title: "Extensions of Fuzzy Cognitive Maps: A Systematic Review",
     authors: ["R. Schuerkamp, ", "P. J. Giabbanelli"],
     venueYear: "ACM Computing Surveys (CSUR), 2023",
@@ -124,6 +140,7 @@ const conferencePapers = generatePaperList([
       "S. Doutre",
     ],
     venueYear: "Winter Simulation Conference (WSC), 2023",
+    paperLink: "https://ieeexplore.ieee.org/abstract/document/10408326",
   },
   {
     title:
@@ -150,6 +167,7 @@ const abstracts = generatePaperList([
       "A. Dubrawski",
     ],
     venueYear: "AAAI Conference on Artificial Intelligence (AAAI), 2024",
+    paperLink: "https://ojs.aaai.org/index.php/AAAI/article/view/30508",
   },
 ]);
 
@@ -171,26 +189,21 @@ const textbookChapters = generatePaperList([
 const underReviewPapers = generatePaperList([
   {
     title:
-      "Guiding Prevention Initiatives by Applying Network Analysis to Causal Maps of Adverse Childhood Experiences and Adolescent Suicide",
-    authors: [
-      "B. D. Maldonado, ",
-      "R. Schuerkamp, ",
-      "C. M. Martin, ",
-      "K. L. Rice, ",
-      "Nisha Nataraj, ",
-      "M. M. Brown, ",
-      "C. R. Harper, ",
-      "C. Florence, ",
-      "P. J. Giabbanelli",
-    ],
+      "Leveraging Large Language Models to Resolve Agents' Cognitive Dissonance",
+    authors: ["R. Schuerkamp, ", "H. Ahlstrom, ", "P. J. Giabbanelli"],
+  },
+  {
+    title:
+      "An Edge Centrality-Based Aggregation Algorithm for Fuzzy Cognitive Maps",
+    authors: ["R. Schuerkamp, ", "P. J. Giabbanelli"],
   },
 ]);
 
 const inPrepPapers = generatePaperList([
   {
     title:
-      "Leveraging Large Language Models to Resolve Agents' Cognitive Dissonance",
-    authors: ["R. Schuerkamp, ", "H. Ahlstrom, ", "P. J. Giabbanelli"],
+      "Guiding Genetic Algorithms with Large Language Models to Learn Fuzzy Cognitive Maps",
+    authors: ["R. Schuerkamp, ", "P. J. Giabbanelli"],
   },
   {
     title:
@@ -248,11 +261,11 @@ const Papers = () => {
               style={{ marginTop: 10, marginBottom: 10 }}
               variant="body1"
             >
-              I am interested in trustworthy{"\u2013"}interpretable, robust, and
-              fair{"\u2013"}machine learning and its health applications. I plan
-              on joining a Ph.D. program starting in the fall of 2024 to pursue
-              these interests. If you are interested in discussing research,
-              please feel free to email me at schuerr2 at miamioh dot edu.
+              I am interested in machine learning and its health applications.
+              Starting in the fall of 2024, I will be a Ph.D. student in the
+              School of Computer Science at Carnegie Mellon University. If you
+              are interested in discussing research, please feel free to email
+              me at schuerr2 at miamioh dot edu.
             </Typography>
             <Typography
               style={{ marginTop: 10, marginBottom: 10 }}

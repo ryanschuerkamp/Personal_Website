@@ -50,7 +50,7 @@ const CV = () => {
             <ul>
               <li>
                 <Typography variant="body1">
-                  Accepted: <b>R. Schuerkamp</b>.{" "}
+                  <b>R. Schuerkamp</b>.{" "}
                   <i>
                     How to Combine Models? Principles and Mechanisms to
                     Aggregate Fuzzy Cognitive Maps
@@ -104,9 +104,52 @@ const CV = () => {
             <ul>
               <li>
                 <Grid item container justifyContent="space-between">
-                  <Typography variant="body1">President's List</Typography>
                   <Typography variant="body1">
-                    <i>2020 - Present</i>
+                    University Honors with Distinction (both B.S. degrees)
+                  </Typography>
+                  <Typography variant="body1">
+                    <i>2024</i>
+                  </Typography>
+                </Grid>
+              </li>
+              <li>
+                <Grid item container justifyContent="space-between">
+                  <Typography variant="body1">
+                    Summa Cum Laude (both B.S. degrees)
+                  </Typography>
+                  <Typography variant="body1">
+                    <i>2024</i>
+                  </Typography>
+                </Grid>
+              </li>
+              <li>
+                <Grid item container justifyContent="space-between">
+                  <Typography variant="body1">
+                    College of Engineering and Computing Commencement Speaker
+                  </Typography>
+                  <Typography variant="body1">
+                    <i>2024</i>
+                  </Typography>
+                </Grid>
+              </li>
+              <li>
+                <Grid item container justifyContent="space-between">
+                  <Typography variant="body1">
+                    Computer Science Department Commencement Speaker Nominee
+                  </Typography>
+                  <Typography variant="body1">
+                    <i>2024</i>
+                  </Typography>
+                </Grid>
+              </li>
+              <li>
+                <Grid item container justifyContent="space-between">
+                  <Typography variant="body1">
+                    Senior Service Leadership Award (Intellectual and Cultural
+                    Leadership)
+                  </Typography>
+                  <Typography variant="body1">
+                    <i>2024</i>
                   </Typography>
                 </Grid>
               </li>
@@ -117,6 +160,14 @@ const CV = () => {
                   </Typography>
                   <Typography variant="body1">
                     <i>2023</i>
+                  </Typography>
+                </Grid>
+              </li>
+              <li>
+                <Grid item container justifyContent="space-between">
+                  <Typography variant="body1">President's List</Typography>
+                  <Typography variant="body1">
+                    <i>2020 - 2024</i>
                   </Typography>
                 </Grid>
               </li>
@@ -209,6 +260,12 @@ const CV = () => {
               <li>
                 <Typography variant="body1">
                   Association for Computing Machinery (ACM)
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  Association for the Advancement of Artificial Intelligence
+                  (AAAI)
                 </Typography>
               </li>
               <li>

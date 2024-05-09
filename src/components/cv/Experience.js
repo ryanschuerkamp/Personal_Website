@@ -29,17 +29,6 @@ const renderExperiences = (experiences) => {
 const Experience = () => {
   const research_experiences = renderExperiences([
     {
-      title:
-        "Research Assistant (RISS REU) Advised by Professor Artur Dubrawski and the Auton Lab",
-      company: "Carnegie Mellon University",
-      dates: "June 2023 - Present",
-      accomplishments: [
-        "Created a model to accurately conduct fluid resuscitation in pigs with high precision (0.8) using Python and Scikit-learn",
-        "Collaborated with clinicians to create novel methods for humans and apply pigs models on two real-world human datasets of patients airlifted to the hospital employing transfer learning approaches, Python, Pandas, and Scikit-learn",
-      ],
-    },
-
-    {
       title: "Research Assistant Advised by Professor Philippe Giabbanelli",
       company: "Miami University",
       dates: "October 2021 - Present",
@@ -51,6 +40,16 @@ const Experience = () => {
         "Proposed nine novel properties and evaluated three methods from social choice theory for FCM aggregation",
         "Wrote a textbook chapter on extensions of FCMs and another on analyzing FCMs with network science and graph theory",
         "Applied transfer learning and deep learning-based object detection model to detect gender in over 700 GB of historical postcards with a precision of 0.93 leveraging Python, Pandas, and OpenCV",
+      ],
+    },
+    {
+      title:
+        "Research Assistant (RISS REU) Advised by Professor Artur Dubrawski and the Auton Lab",
+      company: "Carnegie Mellon University",
+      dates: "June 2023 - February 2024",
+      accomplishments: [
+        "Created a model to accurately conduct fluid resuscitation in pigs with high precision (0.8) using Python and Scikit-learn",
+        "Collaborated with clinicians to create novel methods for humans and apply pigs models on two real-world human datasets of patients airlifted to the hospital employing transfer learning approaches, Python, Pandas, and Scikit-learn",
       ],
     },
     {

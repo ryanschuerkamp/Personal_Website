@@ -59,8 +59,8 @@ const Footer = (props) => {
             style={{ marginBottom: 20, marginTop: 20 }}
             variant="body1"
           >
-            Undergraduate student interested in trustworthy machine learning and
-            its health applications
+            Undergraduate student interested in machine learning and its health
+            applications
           </Typography>
         </Grid>
         <Divider />
