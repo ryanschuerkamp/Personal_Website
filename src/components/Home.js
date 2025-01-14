@@ -30,39 +30,68 @@ const Home = () => {
               style={{ marginTop: 10, marginBottom: 20 }}
               variant="h5"
             >
-              I am a senior at Miami University pursuing a combined B.S./M.S. in
-              Computer Science, a B.S. in Data Science and Statistics, and a
-              minor in Mathematics. My research has focused on three main areas:
-              <ol>
-                <li>
-                  Fuzzy Cognitive Maps (an interpretable graph-based simulation
-                  model)
-                </li>
-                <li>
-                  Network science and simulation for adolescent suicide
-                  prevention in collaboration with the Centers for Disease
-                  Control and Prevention (CDC)
-                </li>
-                <li>Machine learning for health.</li>
-              </ol>
-              As a result of these three research areas, I am interested in
-              machine learning and its health applications. Starting in the fall
-              of 2024, I will be a Ph.D. student in the School of Computer
-              Science at Carnegie Mellon University.
+              I am a Ph.D. student in the{" "}
+              <Link
+                href="https://www.ri.cmu.edu/"
+                target="_blank"
+                rel="noopener"
+              >
+                Robotics Institute
+              </Link>{" "}
+              in the{" "}
+              <Link
+                href="https://www.cs.cmu.edu/"
+                target="_blank"
+                rel="noopener"
+              >
+                School of Computer Science{" "}
+              </Link>
+              at{" "}
+              <Link href="https://www.cmu.edu/" target="_blank" rel="noopener">
+                Carnegie Mellon University
+              </Link>
+              , advised by{" "}
+              <Link
+                href="https://www.cs.cmu.edu/~ggordon/"
+                target="_blank"
+                rel="noopener"
+              >
+                Professor Geoff Gordon
+              </Link>
+              . My research focuses on the intersection of machine learning,
+              reasoning, and optimization and currently explores using
+              semidefinite program relaxations to efficiently solve deep
+              reinforcement learning problems.
             </Typography>
+
             <Typography
               style={{ marginTop: 10, marginBottom: 20 }}
               variant="h5"
             >
-              At Miami, I am advised by{" "}
+              In the spring of 2024, I graduated Summa Cum Laude with University
+              Honors with Distinction from{" "}
+              <Link href="https://miamioh.edu/" target="_blank" rel="noopener">
+                Miami University
+              </Link>
+              , earning a combined B.S./M.S. in Computer Science and a B.S. in
+              Data Science and Statistics. I worked with{" "}
               <Link
                 href="https://giabbanelli.com/"
                 target="_blank"
                 rel="noopener"
               >
                 Professor Philippe Giabbanelli
-              </Link>
-              . Last summer, I interned with{" "}
+              </Link>{" "}
+              on Fuzzy Cognitive Maps (an interpretable graph-based simulation
+              model) and simulation for adolescent suicide prevention with the
+              Centers for Disease Control and Prevention (CDC).{" "}
+            </Typography>
+
+            <Typography
+              style={{ marginTop: 10, marginBottom: 20 }}
+              variant="h5"
+            >
+              Previously, I worked on machine learning for healthcare with{" "}
               <Link
                 href="https://www.ri.cmu.edu/ri-faculty/artur-w-dubrawski/"
                 target="_blank"
@@ -74,19 +103,28 @@ const Home = () => {
               <Link href="https://autonlab.org/" target="_blank" rel="noopener">
                 Auton Lab
               </Link>{" "}
-              at Carnegie Mellon University and developed a machine
-              learning-based approach for resuscitation sufficiency analysis.
-            </Typography>
-
-            <Typography style={{ marginBottom: 20 }} variant="h5">
-              Previously, I interned as a Quantitative Research Intern at
-              Artisan Partners in Boston and as a Software Engineer at Joot, a
-              fintech startup. I also worked on machine learning for
-              cybersecurity with{" "}
+              at CMU and cybersecurity with{" "}
               <Link href="https://sbhunia.me/" target="_blank" rel="noopener">
                 Professor Suman Bhunia
+              </Link>{" "}
+              at Miami University. Also, I have interned as a Data Scientist at
+              the{" "}
+              <Link href="https://www.usa.gov/" target="_blank" rel="noopener">
+                United States Federal Government
               </Link>
-              .
+              , a Quantitative Researcher at{" "}
+              <Link
+                href="https://www.artisanpartners.com/"
+                target="_blank"
+                rel="noopener"
+              >
+                Artisan Partners
+              </Link>
+              , and a Software Engineer at{" "}
+              <Link href="https://joot.io/" target="_blank" rel="noopener">
+                Joot
+              </Link>
+              , a fintech startup.
             </Typography>
 
             <Typography style={{ marginBottom: 20 }} variant="h5">
@@ -98,8 +136,8 @@ const Home = () => {
               .
             </Typography>
             <Typography style={{ marginBottom: 20 }} variant="h5">
-              Please feel free to get in touch. My email is schuerr2 at miamioh
-              dot edu.
+              Please feel free to get in touch. My email is ryanschuerkamp at
+              cmu dot edu.
             </Typography>
             <Divider />
             <Typography

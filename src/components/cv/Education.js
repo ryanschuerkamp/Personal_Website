@@ -67,6 +67,7 @@ const Education = () => {
   const [cseExpanded, setCSEExpanded] = React.useState(false);
   const [staExpanded, setSTAExpanded] = React.useState(false);
   const [mthExpanded, setMTHExpanded] = React.useState(false);
+  const [phdExpanded, setPHDExpanded] = React.useState(false);
 
   const handleExpandClick = (type) => {
     if (type === "CSE") {
@@ -75,6 +76,8 @@ const Education = () => {
       setSTAExpanded(!staExpanded);
     } else if (type === "MTH") {
       setMTHExpanded(!mthExpanded);
+    } else if (type === "PHD") {
+      setPHDExpanded(!phdExpanded);
     }
   };
 
@@ -218,6 +221,17 @@ const Education = () => {
     ],
   ]);
 
+  const phdList = generateCourseList([
+    [
+      "https://www.cs.cmu.edu/~nihars/teaching/10715-Fa23/index.html",
+      "10-715 Advanced Introduction to Machine Learning",
+    ],
+    [
+      "https://www.stat.cmu.edu/~larry/=stat705/",
+      "36-705 Intermediate Statistics",
+    ],
+  ]);
+
   const cseButton = generateExpandButton(
     classes,
     handleExpandClick,
@@ -242,10 +256,35 @@ const Education = () => {
     mthList
   );
 
+  const phdButton = generateExpandButton(
+    classes,
+    handleExpandClick,
+    "PHD",
+    phdExpanded,
+    phdList
+  );
+
   return (
     <>
       <Typography style={{ marginTop: 10 }} variant="h4">
         Education
+      </Typography>
+      <Grid item container justifyContent="space-between">
+        <Typography variant="h5">Carnegie Mellon University</Typography>
+        <Typography variant="body1">
+          <i>August 2024 - May 2028</i>
+        </Typography>
+      </Grid>
+      <Grid item container justifyContent="space-between">
+        <Typography variant="body1">
+          <b>Ph.D. in Robotics, School of Computer Science</b>
+        </Typography>
+      </Grid>
+      <Typography component="div" variant="body1">
+        <ul>
+          <li>Advised by Geoff Gordon</li>
+          <li>Courses {phdButton}</li>
+        </ul>
       </Typography>
       <Grid item container justifyContent="space-between">
         <Typography variant="h5">Miami University</Typography>

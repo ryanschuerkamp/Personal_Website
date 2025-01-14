@@ -65,6 +65,17 @@ const Experience = () => {
 
   const industry_experiences = renderExperiences([
     {
+      title: "Data Science Intern",
+      company: "United States Federal Government",
+      dates: "June 2024 - August 2024",
+      accomplishments: [
+        "Obtained Top Secret (TS)/Special Intelligence (SI)/Talent-Keyhole (TK) clearance with full scope polygraph (1/30/2024) and Agency special background investigation (2/15/2024)",
+        "Consulted across teams and missions, identified common pain points, and proposed data science solutions",
+        "Enhanced querying abilities at scale by developing an improved search method with Python and Pandas",
+        "Leveraged natural language processing (topic modeling) to identify items of interest and refine querying process",
+      ],
+    },
+    {
       title: "Quantitative Research Intern",
       company: "Artisan Partners",
       dates: "December 2022 - January 2023",

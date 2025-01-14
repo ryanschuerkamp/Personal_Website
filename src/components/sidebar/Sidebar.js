@@ -47,8 +47,8 @@ const Sidebar = (props) => {
         </Typography>
         <Divider />
         <Typography style={{ marginBottom: 20, marginTop: 20 }} variant="body1">
-          Undergraduate student interested in machine learning and its health
-          applications
+          Ph.D. student interested in the intersection of machine learning,
+          reasoning, and optimization
         </Typography>
         <Divider />
         <Link
@@ -65,7 +65,7 @@ const Sidebar = (props) => {
         >
           <LinkedIn className={classes.icons} />
         </Link>
-        <Link href="mailto:schuerr2@miamioh.edu" rel="noopener">
+        <Link href="mailto:ryanschuerkamp@cmu.edu" rel="noopener">
           <MailOutline fontSize="inherit" className={classes.icons} />
         </Link>
         <Typography style={{ marginTop: 20 }} variant="body2">

@@ -92,6 +92,8 @@ const journalArticles = generatePaperList([
       "P. J. Giabbanelli",
     ],
     venueYear: "Network Science, 2024",
+    paperLink:
+      "https://www.cambridge.org/core/journals/network-science/article/guiding-prevention-initiatives-by-applying-network-analysis-to-systems-maps-of-adverse-childhood-experiences-and-adolescent-suicide/A9131ED0018BE8BD05ADA364951987CB",
   },
   {
     title: "Extensions of Fuzzy Cognitive Maps: A Systematic Review",
@@ -194,17 +196,17 @@ const underReviewPapers = generatePaperList([
   },
   {
     title:
+      "Guiding Genetic Algorithms with Large Language Models to Learn Fuzzy Cognitive Maps",
+    authors: ["R. Schuerkamp, ", "P. J. Giabbanelli"],
+  },
+  {
+    title:
       "An Edge Centrality-Based Aggregation Algorithm for Fuzzy Cognitive Maps",
     authors: ["R. Schuerkamp, ", "P. J. Giabbanelli"],
   },
 ]);
 
 const inPrepPapers = generatePaperList([
-  {
-    title:
-      "Guiding Genetic Algorithms with Large Language Models to Learn Fuzzy Cognitive Maps",
-    authors: ["R. Schuerkamp, ", "P. J. Giabbanelli"],
-  },
   {
     title:
       "An Artificial Intelligence Approach to Support Youth Suicide Prevention Initiatives in the U.S.A",
@@ -261,11 +263,10 @@ const Papers = () => {
               style={{ marginTop: 10, marginBottom: 10 }}
               variant="body1"
             >
-              I am interested in machine learning and its health applications.
-              Starting in the fall of 2024, I will be a Ph.D. student in the
-              School of Computer Science at Carnegie Mellon University. If you
-              are interested in discussing research, please feel free to email
-              me at schuerr2 at miamioh dot edu.
+              I am interested in the intersection of machine learning,
+              reasoning, and optimization. If you are interested in discussing
+              research, please feel free to email me at ryanschuerkamp at cmu
+              dot edu.
             </Typography>
             <Typography
               style={{ marginTop: 10, marginBottom: 10 }}
