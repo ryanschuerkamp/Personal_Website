@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.9d44b6db.chunk.js",
-    "main.js.map": "/static/js/main.9d44b6db.chunk.js.map",
+    "main.js": "/static/js/main.10c12a07.chunk.js",
+    "main.js.map": "/static/js/main.10c12a07.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8233b8b5.js",
     "runtime-main.js.map": "/static/js/runtime-main.8233b8b5.js.map",
     "static/js/2.e176ebaa.chunk.js": "/static/js/2.e176ebaa.chunk.js",
@@ -9,7 +9,6 @@
     "index.html": "/index.html",
     "static/js/2.e176ebaa.chunk.js.LICENSE.txt": "/static/js/2.e176ebaa.chunk.js.LICENSE.txt",
     "static/media/carnegieMellonUniversity.cf3f4718.jpeg": "/static/media/carnegieMellonUniversity.cf3f4718.jpeg",
-    "static/media/coding.52766a4b.jpeg": "/static/media/coding.52766a4b.jpeg",
     "static/media/cooking.3eb77c03.jpeg": "/static/media/cooking.3eb77c03.jpeg",
     "static/media/gaming.50a9379d.jpeg": "/static/media/gaming.50a9379d.jpeg",
     "static/media/iceCreamCake.a078e7d5.jpeg": "/static/media/iceCreamCake.a078e7d5.jpeg",
@@ -17,12 +16,13 @@
     "static/media/minnesota.8c2f9490.jpeg": "/static/media/minnesota.8c2f9490.jpeg",
     "static/media/profilePicture.b18ecd75.png": "/static/media/profilePicture.b18ecd75.png",
     "static/media/reading.63c56feb.jpeg": "/static/media/reading.63c56feb.jpeg",
+    "static/media/running.e0098d87.jpeg": "/static/media/running.e0098d87.jpeg",
     "static/media/walking.69b76017.jpeg": "/static/media/walking.69b76017.jpeg",
     "static/media/weights.60d63465.jpeg": "/static/media/weights.60d63465.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.8233b8b5.js",
     "static/js/2.e176ebaa.chunk.js",
-    "static/js/main.9d44b6db.chunk.js"
+    "static/js/main.10c12a07.chunk.js"
   ]
 }

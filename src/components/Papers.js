@@ -79,6 +79,21 @@ const generatePaperList = (papers) => {
 const journalArticles = generatePaperList([
   {
     title:
+      "Guiding Evolutionary Algorithms With Large Language Models to Learn Fuzzy Cognitive Maps",
+    authors: ["R. Schuerkamp, ", "P. J. Giabbanelli"],
+    venueYear: "Neural Computing and Applications, 2025",
+    paperLink: "https://link.springer.com/article/10.1007/s00521-025-11157-x",
+    codeLink: "https://zenodo.org/records/11194343"
+  },
+  {
+    title:
+      "Automatically Resolving Conflicts Between Expert Systems: an Experimental Approach Using Large Language Models and Fuzzy Cognitive Maps From Participatory Modeling Studies",
+    authors: ["R. Schuerkamp, ", "H. Ahlstrom, ", "P. J. Giabbanelli"],
+    venueYear: "Knowledge-Based Systems, 2025",
+    paperLink: "https://www.sciencedirect.com/science/article/abs/pii/S0950705125001984",
+  },
+  {
+    title:
       "Guiding Prevention Initiatives by Applying Network Analysis to Causal Maps of Adverse Childhood Experiences and Adolescent Suicide",
     authors: [
       "B. D. Maldonado, ",
@@ -189,16 +204,6 @@ const textbookChapters = generatePaperList([
 ]);
 
 const underReviewPapers = generatePaperList([
-  {
-    title:
-      "Leveraging Large Language Models to Resolve Agents' Cognitive Dissonance",
-    authors: ["R. Schuerkamp, ", "H. Ahlstrom, ", "P. J. Giabbanelli"],
-  },
-  {
-    title:
-      "Guiding Genetic Algorithms with Large Language Models to Learn Fuzzy Cognitive Maps",
-    authors: ["R. Schuerkamp, ", "P. J. Giabbanelli"],
-  },
   {
     title:
       "An Edge Centrality-Based Aggregation Algorithm for Fuzzy Cognitive Maps",

@@ -230,6 +230,18 @@ const Education = () => {
       "https://www.stat.cmu.edu/~larry/=stat705/",
       "36-705 Intermediate Statistics",
     ],
+    [
+      "https://www.cs.cmu.edu/~pradeepr/716/", 
+      "10-716: Advanced Machine Learning: Theory and Methods",
+    ],
+    [
+      "https://www.cmu.edu/tepper/programs/courses/47830.html",
+      "47-830/47-831 Integer Programming/Advanced Integer Programming"
+    ],
+    [
+      "https://interactive-learning-algos.github.io/",
+      "17-740 Algorithmic Foundations of Interactive Learning"
+    ]
   ]);
 
   const cseButton = generateExpandButton(
@@ -295,12 +307,9 @@ const Education = () => {
       <Grid item container justifyContent="space-between">
         <Typography variant="body1">
           <b>
-            Combined B.S./M.S. in Computer Science <br />
-            B.S. in Data Science and Statistics
+            Combined B.S./M.S. in Computer Science, <i>summa cum laude</i><br />
+            B.S. in Data Science and Statistics, <i>summa cum laude</i>
           </b>
-        </Typography>
-        <Typography variant="body1">
-          <i>GPA: 4.00</i>
         </Typography>
       </Grid>
       <Typography component="div" variant="body1">

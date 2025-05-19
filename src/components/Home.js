@@ -59,9 +59,7 @@ const Home = () => {
                 Professor Geoff Gordon
               </Link>
               . My research focuses on the intersection of machine learning,
-              reasoning, and optimization and currently explores using
-              semidefinite program relaxations to efficiently solve deep
-              reinforcement learning problems.
+              reasoning, and optimization.
             </Typography>
 
             <Typography
@@ -128,8 +126,7 @@ const Home = () => {
             </Typography>
 
             <Typography style={{ marginBottom: 20 }} variant="h5">
-              Outside of work, I enjoy working out, cooking, hiking, and other
-              hobbies, which you can read about on my{" "}
+              Outside of work, I enjoy lifting, running, hiking, cooking, gaming, and reading, which you can read about on my{" "}
               <Link to="/personal" component={RouterLink}>
                 Personal page
               </Link>

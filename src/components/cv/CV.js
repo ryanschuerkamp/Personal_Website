@@ -105,17 +105,7 @@ const CV = () => {
               <li>
                 <Grid item container justifyContent="space-between">
                   <Typography variant="body1">
-                    University Honors with Distinction (both B.S. degrees)
-                  </Typography>
-                  <Typography variant="body1">
-                    <i>2024</i>
-                  </Typography>
-                </Grid>
-              </li>
-              <li>
-                <Grid item container justifyContent="space-between">
-                  <Typography variant="body1">
-                    Summa Cum Laude (both B.S. degrees)
+                    University Honors with Distinction
                   </Typography>
                   <Typography variant="body1">
                     <i>2024</i>
