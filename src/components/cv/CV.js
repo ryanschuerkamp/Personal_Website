@@ -26,7 +26,7 @@ const CV = () => {
               CV
             </Typography>
             <Typography variant="subtitle1">
-              <Link href="mailto:schuerr2@miamioh.edu">
+              <Link href="mailto:ryanschuerkamp@cmu.edu">
                 Email me for current PDF version
               </Link>
             </Typography>

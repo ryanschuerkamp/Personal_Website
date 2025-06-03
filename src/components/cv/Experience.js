@@ -29,9 +29,17 @@ const renderExperiences = (experiences) => {
 const Experience = () => {
   const research_experiences = renderExperiences([
     {
-      title: "Research Assistant Advised by Professor Philippe Giabbanelli",
+      title: "Research Assistant Advised by Professor Geoffrey J. Gordon",
+      company: "Carnegie Mellon University",
+      dates: "October 2024 - Present",
+      accomplishments: [
+        "Applying linear program relaxation hierarchies (e.g., Sherali-Adams and Sum-of-Squares) and randomized rounding to solve mixed-integer linear programs with applications in energy markets and computational decarbonization",
+      ],
+    },
+    {
+      title: "Research Assistant Advised by Professor Philippe J. Giabbanelli",
       company: "Miami University",
-      dates: "October 2021 - Present",
+      dates: "October 2021 - May 2024",
       accomplishments: [
         "Built simulation model for the Centers for Disease Control and Prevention (CDC) to assess adolescent suicide prevention interventions and inform future intervention deployment utilizing Python, NumPy, and Pandas",
         "Discovered factors driving adolescent suicide as part of CDC-funded research by analyzing largest suicide causal map with over 360 nodes and 940 edges employing Python and NetworkX",
@@ -40,6 +48,8 @@ const Experience = () => {
         "Proposed nine novel properties and evaluated three methods from social choice theory for FCM aggregation",
         "Wrote a textbook chapter on extensions of FCMs and another on analyzing FCMs with network science and graph theory",
         "Applied transfer learning and deep learning-based object detection model to detect gender in over 700 GB of historical postcards with a precision of 0.93 leveraging Python, Pandas, and OpenCV",
+        "Developed methods to automatically leverage large language models (LLMs) (e.g., GPT-4, Claude 3) via APIs and Python to resolve cognitive dissonance in FCMs and guide evolutionary algorithms in learning FCMs",
+        "Proposed and evaluated new FCM aggregation algorithm leveraging edge centrality"
       ],
     },
     {
